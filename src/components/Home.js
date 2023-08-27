@@ -20,27 +20,6 @@ export default function Home() {
         </button>
       </div>
       <div className="hidden lg:block">
-        <header className="sticky top-0 p-5 text-white w-screen px-10 bg-[#04040c]">
-          <div className="flex justify-between items-center pl-12">
-            <div className="flex justify-center items-center">
-              <img src="logo-temp.svg" alt="" />
-              <div className="text-3xl px-3">ICRAAE</div>
-            </div>
-            <div>
-              <ul className="flex space-x-5">
-                <a href="">
-                  <li>Home</li>
-                </a>
-                <a href="">
-                  <li>About Conference</li>
-                </a>
-                <a href="">
-                  <li>Contact Us</li>
-                </a>
-              </ul>
-            </div>
-          </div>
-        </header>
         <div className="-mt-20">
           <div
             className="h-screen text-white px-5 flex justify-between"
