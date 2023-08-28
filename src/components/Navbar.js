@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { slide as Menu } from 'react-burger-menu';
-
+import { Link } from 'react-router-dom';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -35,9 +35,10 @@ export default function Navbar() {
             width={'60%'}
           >
             <div className="flex flex-col space-y-5 md:space-y-10 p-4 bg-[#020411] h-screen">
-              <div><a href="/" onClick={toggleMenu}>Home</a></div>
-              <div><a href="/about-conference" onClick={toggleMenu}>About Conference</a></div>
-              <div><a href="/contact-us" onClick={toggleMenu}>Contact Us</a></div>
+              <div><Link to="/" onClick={toggleMenu}>Home</Link></div>
+              <div><Link to="/about-conference" onClick={toggleMenu}>About Conference</Link></div>
+              <div><Link to="/committe" onClick={toggleMenu}>Committe</Link></div>
+              <div><Link to="/contact-us" onClick={toggleMenu}>Contact Us</Link></div>
             </div>
           </Menu>
         </div>
@@ -51,15 +52,18 @@ export default function Navbar() {
             </div>
             <div>
               <ul className="flex space-x-5">
-                <a href="">
+                <Link to="">
                   <li>Home</li>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/">
                   <li>About Conference</li>
-                </a>
-                <a href="">
+                </Link>
+                <Link to="/committe">
+                  <li>Committe</li>
+                </Link>
+                <Link to="/">
                   <li>Contact Us</li>
-                </a>
+                </Link>
               </ul>
             </div>
           </div>
