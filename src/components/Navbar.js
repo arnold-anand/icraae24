@@ -36,7 +36,7 @@ export default function Navbar() {
           >
             <div className="flex flex-col space-y-5 md:space-y-10 p-4 bg-[#020411] h-screen">
               <div><Link to="/" onClick={toggleMenu}>Home</Link></div>
-              <div><Link to="/about-conference" onClick={toggleMenu}>About Conference</Link></div>
+              <div><Link to="/about-conference" onClick={toggleMenu}>About ICRAAE</Link></div>
               <div><Link to="/committe" onClick={toggleMenu}>Committe</Link></div>
               <div><Link to="/contact-us" onClick={toggleMenu}>Contact Us</Link></div>
             </div>
@@ -44,7 +44,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className='hidden lg:block'>
-        <header className="sticky top-0 p-5 text-white w-screen px-10 bg-[#04040c] z-10">
+        <header className="sticky top-0 text-white w-screen px-10 bg-[#04040c] z-10">
           <div className="flex justify-between items-center pl-12">
             <div className="flex justify-center items-center">
               <img src="logo-temp.svg" alt="" />
@@ -55,8 +55,8 @@ export default function Navbar() {
                 <Link to="">
                   <li>Home</li>
                 </Link>
-                <Link to="/">
-                  <li>About Conference</li>
+                <Link to="/about-conference">
+                  <li>About ICRAAE</li>
                 </Link>
                 <Link to="/committe">
                   <li>Committe</li>
