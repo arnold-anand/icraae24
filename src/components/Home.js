@@ -56,7 +56,7 @@ export default function Home() {
           backgroundImage: "url(/stars.jpg)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          height: "100vh",
+          height: "100%",
         }} className="p-6 bg-[#020411] text-gray-300">
         <div className="lg:p-10">
           <h1 className="text-3xl my-5">

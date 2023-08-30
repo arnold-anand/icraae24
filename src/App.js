@@ -5,7 +5,9 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Committe from './components/Committe';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Conference from './components/Conference';
+import About from './components/About';
+import Topics from './components/Topics';
+
 
 function App() {
   return (
@@ -14,10 +16,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/about-conference" element={<About />} />
           <Route exact path="/committe" element={<Committe />} />
-          <Route exact path="/about-conference" element={<Conference />} />
+          <Route exact path="/conference-topics" element={<Topics />} />
         </Routes>
-        <Footer />
+      <Footer />
       </>
     </Router>
   );
