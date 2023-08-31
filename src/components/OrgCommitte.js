@@ -4,7 +4,7 @@ export default function OrgCommitte() {
   return (
     <div
       style={{
-        backgroundImage: "url(/stars.jpg)",
+        backgroundImage: "url(/stars.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100%",
@@ -14,7 +14,7 @@ export default function OrgCommitte() {
         <div className="flex flex-col justify-center items-center">
           <div className="text-center">
             <div className="text-3xl font-semibold p-2">CHEIF PATRON</div>
-            <img className="w-56 rounded-md" src="chancellor.jpg" alt="" />
+            <img className="w-56 rounded-md" src="chancellor.webp" alt="" />
             <div className="">Dr. Paul Dhinakaran</div>
             <div>Chancellor, KITS</div>
           </div>

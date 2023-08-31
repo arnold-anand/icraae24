@@ -103,7 +103,7 @@ export default function Navbar() {
         <header className="sticky top-0 text-white w-screen px-10 bg-[#04040c] z-10">
           <div className="flex justify-between items-center pl-12">
             <div className="flex justify-center items-center">
-              <img className="w-20" src="karunya-logo-white.png" alt="" />
+              <img className="w-20" src="karunya-logo-white.webp" alt="" />
               <div className="text-3xl px-3">ICRAAE</div>
             </div>
             <div>

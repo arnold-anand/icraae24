@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div style={{
-        backgroundImage: "url(/stars.jpg)",
+        backgroundImage: "url(/stars.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100%",
