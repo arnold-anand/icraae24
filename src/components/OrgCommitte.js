@@ -1,6 +1,77 @@
 import React from "react";
 
-export default function OrgCommitte() {
+const CommitteeSection = ({ title, members }) => (
+  <div className="flex justify-center items-center mt-10">
+    <table className="md:w-[90%] text-sm md:text-md lg:text-lg">
+      <tr>
+        <th colSpan={2} className="text-2xl">
+          {title}
+        </th>
+      </tr>
+      {members.map((member, index) => (
+        <tr key={index}>
+          <td className="p-2 border-b border-slate-500">{member.name}</td>
+          <td className="p-2 border-b border-slate-500">{member.position}</td>
+        </tr>
+      ))}
+    </table>
+  </div>
+);
+
+const committeeMembers = [
+  {
+    title: "CHEIF PATRON",
+    name: "Dr. Paul Dhinakaran",
+    position: "Chancellor, KITS",
+    image: "chancellor.webp",
+  },
+  // Add other committee members here
+];
+
+const patrons = [
+  { name: "Dr. Mannar Jawahar", position: "Vice-Chancellor, KITS" },
+  { name: "Dr. E. J. James", position: "Pro Vice-Chancellor, Research and Collaborations, KITS" },
+  { name: "Dr. Ridling Margaret Waller", position: "Pro Vice-Chancellor, Quality Standards, KITS" },
+  { name: "Dr. R. Elijah Blessing", position: "Registrar, KITS" },
+  { name: "Dr. G. Prince Arulraj", position: "Dean, School of Engineering and Technology, KITS" },
+];
+
+const coPatrons = [
+  { name: "Dr. K.R.S Krishnan", position: "Director-Innovation, Incubation & Entrepreneurship" },
+  { name: "Dr. Madhu Ganesh", position: "Director-Industry Academia Collaboration" },
+  { name: "Dr. D. Tensing", position: "Director-IQAC" },
+  { name: "Dr. S. J. Vijay", position: "Director-Research and Consultancy" },
+  { name: "Dr. S. Albones Raj", position: "Director Students Affairs" },
+  { name: "Shri. CA.A. Joseph Amulraj", position: "Finance Officer" },
+];
+
+const convenor = {
+  title: "CONVENOR",
+  name: "Dr. Jims John Wessley",
+  position: "Asso. Prof. & Head, Aerospace Engineering",
+};
+
+const organizingSecretary = {
+  title: "ORGANIZING SECRETARY",
+  name: "Dr. Aldin Justin Sundararaj",
+  position: "Asst.Prof., Aerospace Engg.",
+};
+
+const memberSecretary = [
+  { name: "Dr. S. Venkatachalam", position: "Asst.Prof., Aerospace Engg." },
+  { name: "Dr. K. Anton Savio Lewise", position: "Asst.Prof., Aerospace Engg." },
+];
+
+const memberCoordinators = [
+  { name: "Dr. Robinson Smart", position: "Prof., Aerospace Engg." },
+  { name: "Dr. Prawin Angel", position: "Asso.Prof., Aerospace Engg." },
+  { name: "Mrs. Gayathri", position: "Asst.Prof., Aerospace Engg." },
+  { name: "Dr. Sushanlal Babu", position: "Asst.Prof., Aerospace Engg." },
+  { name: "Mr. Prawin", position: "Asst.Prof., Aerospace Engg." },
+  { name: "Dr. R. Ajith Raj", position: "Asst.Prof., Aerospace Engg." },
+];
+
+export default function OrgCommittee() {
   return (
     <div
       style={{
@@ -12,224 +83,20 @@ export default function OrgCommitte() {
     >
       <div className="text-gray-300 p-5">
         <div className="flex flex-col justify-center items-center">
-          <div className="text-center">
-            <div className="text-3xl font-semibold p-2">CHEIF PATRON</div>
-            <img className="w-56 rounded-md" src="chancellor.webp" alt="" />
-            <div className="">Dr. Paul Dhinakaran</div>
-            <div>Chancellor, KITS</div>
-          </div>
-
-          <div className="flex justify-center items-center mt-10">
-            <table className="md:w-3/4">
-              <tr>
-                <th colSpan={2} className="text-2xl">PATRONS</th>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                  Dr. Mannar Jawahar
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                  Vice-Chancellor, KITS
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                  Dr. E. J. James
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                  Pro Vice-Chancellor, Research and Collaborations, KITS
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Ridling Margaret Waller
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                  Pro Vice-Chancellor, 
-Quality Standards, KITS
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. R. Elijah Blessing
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Registrar, KITS
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr.G.Prince Arulraj
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Dean, School of Engineering and Technology, KITS
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="flex justify-center items-center mt-10">
-            <table className="md:w-3/4">
-              <tr>
-                <th colSpan={2} className="text-2xl">CO-PATRONS</th>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. K.R.S Krishnan
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Director-Innovation, Incubation & Entrepreneurship
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Madhu Ganesh
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Director-Industry Academia Collaboration
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. D. Tensing
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Director-IQAC
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. S. J. Vijay
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Director-Research and Consultancy
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. S.Albones Raj
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Director Students Affairs
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Shri. CA.A.Joseph Amulraj
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Finance Officer
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="flex justify-center items-center mt-10">
-            <table className="md:w-[90%]">
-              <tr>
-                <th colSpan={2} className="text-2xl">CONVENOR</th>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Jims John Wessley
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asso. Prof. & Head, Aerospace Engineering
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="flex justify-center items-center mt-10">
-            <table className="md:w-[100%]">
-              <tr>
-                <th colSpan={2} className="text-2xl">ORGANIZING SECRETARY</th>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Aldin Justin Sundararaj
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="flex justify-center items-center mt-10">
-            <table className="md:w-[100%]">
-              <tr>
-                <th colSpan={2} className="text-2xl">MEMBER SECRETARY</th>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. S. Venkatachalam
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. K. Anton Savio Lewise
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-            </table>
-          </div>
-          <div className="flex justify-center items-center mt-10">
-            <table className="md:w-full">
-              <tr>
-                <th colSpan={2} className="text-2xl">MEMBER COORDINATORS</th>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Robinson Smart
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Prof., Aerospace Engg.
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Prawin Angel
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asso.Prof., Aerospace Engg.
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Mrs. Gayathri
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. Sushanlal Babu
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Mr. Prawin
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-              <tr>
-                <td className="p-2 border-b border-slate-500">
-                Dr. R. Ajith Raj
-                </td>
-                <td className="p-2 border-b border-slate-500">
-                Asst.Prof., Aerospace Engg.
-                </td>
-              </tr>
-            </table>
-          </div>
+          {committeeMembers.map((member, index) => (
+            <div className="text-center" key={index}>
+              <div className="text-3xl font-semibold p-2">{member.title}</div>
+              <img className="w-56 rounded-md" src={member.image} alt="" />
+              <div>{member.name}</div>
+              <div>{member.position}</div>
+            </div>
+          ))}
+          <CommitteeSection title="PATRONS" members={patrons} />
+          <CommitteeSection title="CO-PATRONS" members={coPatrons} />
+          <CommitteeSection title="CONVENOR" members={[convenor]} />
+          <CommitteeSection title="ORGANIZING SECRETARY" members={[organizingSecretary]} />
+          <CommitteeSection title="MEMBER SECRETARY" members={memberSecretary} />
+          <CommitteeSection title="MEMBER COORDINATORS" members={memberCoordinators} />
         </div>
       </div>
     </div>
