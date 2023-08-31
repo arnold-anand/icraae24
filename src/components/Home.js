@@ -5,7 +5,7 @@ export default function Home() {
       <div
         className="lg:hidden"
         style={{
-          backgroundImage: "url(/stars.webp)",
+          backgroundImage: "url(/sm-rocket-bg.webp)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100vh",

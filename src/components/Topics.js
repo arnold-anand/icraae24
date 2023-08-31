@@ -5,7 +5,7 @@ export default function Topics() {
     <div className="">
       <div
         style={{
-          backgroundImage: "url(/stars.jpg)",
+          backgroundImage: "url(/stars.webp)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100%",
