@@ -8,6 +8,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './components/About';
 import Topics from './components/Topics';
 import OrgCommitte from './components/OrgCommitte';
+import AdvCommittee from './components/AdvCommittee';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about-conference" element={<About />} />
           <Route exact path="/organising-committee" element={<OrgCommitte />} />
+          <Route exact path="/advisory-committee" element={<AdvCommittee />} />
           <Route exact path="/conference-topics" element={<Topics />} />
         </Routes>
       <Footer />

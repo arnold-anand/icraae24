@@ -123,7 +123,7 @@ Quality Standards, KITS
             </table>
           </div>
           <div className="flex justify-center items-center mt-10">
-            <table className="md:w-3/4">
+            <table className="md:w-[90%]">
               <tr>
                 <th colSpan={2} className="text-2xl">CONVENOR</th>
               </tr>
@@ -145,6 +145,84 @@ Quality Standards, KITS
               <tr>
                 <td className="p-2 border-b border-slate-500">
                 Dr. Aldin Justin Sundararaj
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asst.Prof., Aerospace Engg.
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div className="flex justify-center items-center mt-10">
+            <table className="md:w-[100%]">
+              <tr>
+                <th colSpan={2} className="text-2xl">MEMBER SECRETARY</th>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Dr. S. Venkatachalam
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asst.Prof., Aerospace Engg.
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Dr. K. Anton Savio Lewise
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asst.Prof., Aerospace Engg.
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div className="flex justify-center items-center mt-10">
+            <table className="md:w-full">
+              <tr>
+                <th colSpan={2} className="text-2xl">MEMBER COORDINATORS</th>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Dr. Robinson Smart
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Prof., Aerospace Engg.
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Dr. Prawin Angel
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asso.Prof., Aerospace Engg.
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Mrs. Gayathri
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asst.Prof., Aerospace Engg.
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Dr. Sushanlal Babu
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asst.Prof., Aerospace Engg.
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Mr. Prawin
+                </td>
+                <td className="p-2 border-b border-slate-500">
+                Asst.Prof., Aerospace Engg.
+                </td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-slate-500">
+                Dr. R. Ajith Raj
                 </td>
                 <td className="p-2 border-b border-slate-500">
                 Asst.Prof., Aerospace Engg.

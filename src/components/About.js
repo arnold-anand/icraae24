@@ -23,6 +23,16 @@ export default function About() {
         <p className='text-md md:text-xl py-6 text-justify'>
         Prospective authors are kindly encouraged to contribute to and help shape the conference through submissions of their research abstracts and papers. Also, high quality research contributions describing original and unpublished results of conceptual, constructive, empirical, experimental, or theoretical work in all areas of Aerospace are cordially invited for presentation at the conference.
         </p>
+        <h1 className="text-3xl font-bold">Guidelines for Authors</h1>
+        <p className='text-md md:text-xl py-6 text-justify'>
+        Please ensure your submission meets the conference&#39;s strict guidelines for
+accepting scholarly papers. Downloadable versions of the check list for Full-Text
+Papers and Abstract Papers.
+Please refer to the Paper Submission Guideline, Abstract Submission
+Guideline and Author Information before submitting your paper.
+        </p>
+        <div className='flex justify-center items-center flex-col'>
+
         <h1 className='text-3xl font-bold pb-6 '>Important Dates</h1>
         <table className='border-spacing-5 border-2 border-slate-500'>
           <tr className=''>
@@ -50,6 +60,7 @@ export default function About() {
             <td className='p-5 border border-slate-700'>29 <sup>th</sup> & 30 <sup>th</sup> March 2024</td>
           </tr>
         </table>
+        </div>
 
       </div>
   )
