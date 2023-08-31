@@ -10,15 +10,15 @@ export default function Topics() {
           backgroundRepeat: "no-repeat",
           height: "100%",
         }}
-        className="p-6 text-gray-300"
+        className=" text-gray-300"
       >
         <div className="flex justify-center items-center">
-          <table className="border-spacing-5 border-2 border-slate-500 m-5 w-1/2">
+          <table className=" text-xs border-spacing-5 border-2 border-slate-500 md:w-3/4 lg:w-1/2">
             <tr className="">
-              <td className="p-5 border border-slate-700">1</td>
-              <td className="p-5 border border-slate-700">Propulsion</td>
-              <td className="p-5 border border-slate-700">
-                <ul className="p-5 list-decimal space-y-3">
+              <td className="p-4 border border-slate-700">1</td>
+              <td className="p-4 border border-slate-700">Propulsion</td>
+              <td className="p-4 border border-slate-700">
+                <ul className="p-4 list-decimal space-y-3">
                   <li>Advanced In-Space Propulsion & Power Concepts</li>
                   <li>Advances in Space Propulsion</li>
                   <li>Propulsion Analysis</li>
@@ -29,10 +29,10 @@ export default function Topics() {
               </td>
             </tr>
             <tr className="">
-              <td className="p-5 border border-slate-700">2</td>
-              <td className="p-5 border border-slate-700">Structures</td>
-              <td className="p-5 border border-slate-700">
-                <ul className=" p-5 list-decimal space-y-3">
+              <td className="p-4 border border-slate-700">2</td>
+              <td className="p-4 border border-slate-700">Structures</td>
+              <td className="p-4 border border-slate-700">
+                <ul className=" p-4 list-decimal space-y-3">
                   <li>Materials</li>
                   <li>Aviation 4.0</li>
                   <li>Heat Transfer</li>
@@ -47,10 +47,10 @@ export default function Topics() {
               </td>
             </tr>
             <tr className="">
-              <td className="p-5 border border-slate-700">3</td>
-              <td className="p-5 border border-slate-700">Space Dynamics</td>
-              <td className="p-5 border border-slate-700">
-                <ul className=" p-5 list-decimal space-y-3">
+              <td className="p-4 border border-slate-700">3</td>
+              <td className="p-4 border border-slate-700">Space Dynamics</td>
+              <td className="p-4 border border-slate-700">
+                <ul className=" p-4 list-decimal space-y-3">
                   <li>Lunar in Space Resource Utilization</li>
                   <li>Lunar Lander Technologies and Design</li>
                   <li>Avionics</li>

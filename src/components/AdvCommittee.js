@@ -11,7 +11,7 @@ export default function AdvCommittee() {
       }}
       className=" flex flex-col justify-center items-center p-6 bg-[#020411] text-gray-300"
     >
-      <h1 className="font-bold text-xl text-left my-5">
+      <h1 className="font-bold text-xl text-center my-5 md:text-left">
         International Advisory Committee
       </h1>
       <table className=" w-screen text-xs md:w-1/2 md:text-md">
@@ -114,7 +114,7 @@ export default function AdvCommittee() {
           </td>
         </tr>
       </table>
-      <h1 className="font-bold text-xl text-left my-5">
+      <h1 className="font-bold text-xl text-center md:text-left my-5">
         National Advisory Committee
       </h1>
       <table className="w-screen md:w-1/2 text-xs md:text-md">

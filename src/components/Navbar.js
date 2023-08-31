@@ -17,13 +17,13 @@ export default function Navbar() {
   const toggleAboutMenu = () => {
     setAboutMenuOpen(!aboutMenuOpen);
     setCommitteeMenuOpen(false);
-    setIsOpen(false); // Close the main menu
+    // setIsOpen(false); // Close the main menu
   };
   
   const toggleCommitteeMenu = () => {
     setCommitteeMenuOpen(!committeeMenuOpen);
     setAboutMenuOpen(false);
-    setIsOpen(false); // Close the main menu
+    // setIsOpen(false); // Close the main menu
   };
   
 
@@ -72,10 +72,16 @@ export default function Navbar() {
                   About ICRAAE
                 </span>
                 {aboutMenuOpen && (
-                  <div className="mt-2 space-y-2">
-                    <Link to="/about-conference">About Conference</Link>
-                    <Link to="/conference-topics">Conference Topics</Link>
-                    <Link to="/downloads">Downloads</Link>
+                  <div className="mt-2 space-y-5 text-xs">
+                    <div>
+                      <Link onClick={toggleMenu} to="/about-conference">About Conference</Link>
+                      </div>
+                    <div>
+                      <Link onClick={toggleMenu} to="/conference-topics">Conference Topics</Link>
+                      </div>
+                    <div>
+                      <Link onClick={toggleMenu} to="/downloads">Downloads</Link>
+                      </div>
                   </div>
                 )}
               </div>
@@ -85,8 +91,8 @@ export default function Navbar() {
                 </span>
                 {committeeMenuOpen && (
                   <div className="mt-2 space-y-2">
-                    <Link to="/organising-committee">Organising Committee</Link>
-                    <Link to="/advisory-committee">Advisory Committee</Link>
+                    <Link onClick={toggleMenu} to="/organising-committee">Organising Committee</Link>
+                    <Link onClick={toggleMenu} to="/advisory-committee">Advisory Committee</Link>
                   </div>
                 )}
               </div>
@@ -103,7 +109,7 @@ export default function Navbar() {
         <header className="sticky top-0 text-white w-screen px-10 bg-[#04040c] z-10">
           <div className="flex justify-between items-center pl-12">
             <div className="flex justify-center items-center">
-              <img className="w-20 p-3" src="karunya-logo-white.png" alt="" />
+              <img className="w-20" src="karunya-logo-white.png" alt="" />
               <div className="text-3xl px-3">ICRAAE</div>
             </div>
             <div>
@@ -116,7 +122,7 @@ export default function Navbar() {
                     About ICRAAE
                   </span>
                   {aboutMenuOpen && (
-                    <div className="absolute flex flex-col space-y-10 w-max p-5 left-0 bg-[#04040c] mt-1 rounded-xl ease-in duration-500">
+                    <div className="absolute flex flex-col space-y-5 w-max p-5 left-0 bg-[#04040c] mt-1 rounded-xl">
                       <Link to="/about-conference">About Conference</Link>
                       <Link to="/conference-topics">Conference Topics</Link>
                       <Link to="/downloads">Downloads</Link>
@@ -128,7 +134,7 @@ export default function Navbar() {
                     Committee
                   </span>
                   {committeeMenuOpen && (
-                    <div className="ease-in duration-500 absolute left-0 space-y-10 p-5 w-max flex flex-col rounded-xl bg-[#04040c] mt-1">
+                    <div className="ease-in duration-500 absolute left-0 space-y-5 p-5 w-max flex flex-col rounded-xl bg-[#04040c] mt-1">
                       <Link to="/organising-committee">Organising Committee</Link>
                       <Link to="/advisory-committee">Advisory Committee</Link>
                     </div>
