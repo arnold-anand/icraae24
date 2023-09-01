@@ -33,7 +33,7 @@ export default function Navbar() {
         <div
           className="left-0 w-full bg-[#020411] text-white"
         >
-          <div className="p-7">
+          <div className="p-5">
             <div className="flex justify-between items-center">
             <img className="w-20 p-2" src="karunya-logo-white.png" alt="" />
               <div className="text-xl">ICRAAE</div>

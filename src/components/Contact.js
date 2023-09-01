@@ -7,12 +7,12 @@ export default function Contact() {
         backgroundImage: "url(/stars.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        height: "100%",
+        height: "70vh",
       }}
     >
       <section className="text-gray-400 body-font">
-        <div className="container px-5 py-24 mx-auto">
-          <div className="flex flex-col text-center w-full mb-20">
+        <div className="container px-5 py-3 mx-auto">
+          <div className="flex flex-col text-center w-full mb-5">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Reach Out to Us
             </h1>
