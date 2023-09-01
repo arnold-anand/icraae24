@@ -12,7 +12,7 @@ export default function Home() {
         }}
       >
         <div className="text-white tracking-widest w-56 ml-3 p-3 text-3xl font-bold md:w-48 md:text-5xl">
-          2nd International Conference on Recent Advancements in Aerospace
+          2<sup>nd</sup> International Conference on Recent Advancements in Aerospace
           Engineering
         </div>
         <button className="ml-5 text-xl font-bold border-2 border-solid border-white p-3 rounded-lg w-56 bg-white my-3 max-w-xl">
@@ -31,7 +31,7 @@ export default function Home() {
             }}
           >
             <div className="text-6xl w-[40%] py-56">
-              2nd International Conference on Recent Advances in Aerospace
+              2<sup>nd</sup> International Conference on Recent Advances in Aerospace
               Engineering
             </div>
             <div className="py-56">

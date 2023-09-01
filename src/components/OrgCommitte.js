@@ -2,7 +2,7 @@ import React from "react";
 
 const CommitteeSection = ({ title, members }) => (
   <div className="flex justify-center items-center mt-10">
-    <table className="md:w-[90%] text-sm md:text-md lg:text-lg">
+    <table className="md:w-[90%] text-sm md:text-md lg:text-md">
       <tr>
         <th colSpan={2} className="text-2xl">
           {title}
@@ -23,7 +23,10 @@ const committeeMembers = [
     title: "CHEIF PATRON",
     name: "Dr. Paul Dhinakaran",
     position: "Chancellor, KITS",
-    image: "chancellor.webp",
+  },
+  {
+    name: "Dr. Samuel Dhinakaran",
+    position: "Trustee, KITS",
   },
   // Add other committee members here
 ];
@@ -86,9 +89,8 @@ export default function OrgCommittee() {
           {committeeMembers.map((member, index) => (
             <div className="text-center" key={index}>
               <div className="text-3xl font-semibold p-2">{member.title}</div>
-              <img className="w-56 rounded-md" src={member.image} alt="" />
-              <div>{member.name}</div>
-              <div>{member.position}</div>
+              <div className="text-xl">{member.name}</div>
+              <div className="text-md">{member.position}</div>
             </div>
           ))}
           <CommitteeSection title="PATRONS" members={patrons} />
