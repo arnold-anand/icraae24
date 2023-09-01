@@ -131,7 +131,7 @@ export default function Navbar() {
             </div>
             <div>
               <ul className="flex space-x-5">
-                <Link to="">
+                <Link to="/">
                   <li>Home</li>
                 </Link>
                 <div className="relative">
@@ -165,7 +165,7 @@ export default function Navbar() {
                     </div>
                   )}
                 </div>
-                <Link to="/">
+                <Link to="/contact-us">
                   <li>Contact Us</li>
                 </Link>
               </ul>

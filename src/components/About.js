@@ -102,7 +102,7 @@ export default function About() {
           to the Paper Submission Guideline, Abstract Submission
           Guideline and Author Information before submitting your paper.
         </p>
-<div className="flex flex-col justify-center items-center">
+<div className="flex flex-col">
 
         <h1 className="text-2xl font-bold">Registration fees</h1>
         <table className="my-4 w-full text-sm max-w-md md:text-md lg:text-lg">

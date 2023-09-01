@@ -9,6 +9,7 @@ import About from './components/About';
 import Topics from './components/Topics';
 import OrgCommitte from './components/OrgCommitte';
 import AdvCommittee from './components/AdvCommittee';
+import Contact from './components/Contact';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/organising-committee" element={<OrgCommitte />} />
           <Route exact path="/advisory-committee" element={<AdvCommittee />} />
           <Route exact path="/conference-topics" element={<Topics />} />
+          <Route exact path="//contact-us" element={<Contact />} />
         </Routes>
       <Footer />
       </>
