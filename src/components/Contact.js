@@ -7,7 +7,7 @@ export default function Contact() {
         backgroundImage: "url(/stars.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
-        height: "70vh",
+        height: "100vh",
       }}
     >
       <section className="text-gray-400 body-font">
