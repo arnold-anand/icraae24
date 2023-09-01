@@ -27,7 +27,7 @@ export default function Home() {
               backgroundImage: "url(/rocket.webp)",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
-              height: "100vh",
+              height: "100%",
             }}
           >
             <div className="text-6xl w-[40%] py-56">
