@@ -17,15 +17,11 @@ export default function AdvCommittee() {
       <table className=" w-screen text-xs md:w-1/2 md:text-md">
         <tr className="text-left">
           <th className="p-2">Name</th>
-          <th className="p-2">Designation</th>
           <th className="p-2">Institute </th>
         </tr>
         <tr>
           <td className="p-2 border-b border-slate-500 text-left">
             Dr.Erick C. Jones
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Sr Dean , College of Engineering
           </td>
           <td className="p-2 border-b border-slate-500 text-left">
             University of Nevada, Reno , USA
@@ -36,9 +32,6 @@ export default function AdvCommittee() {
             Dr.Chithirai Pon Selvan
           </td>
           <td className="p-2 border-b border-slate-500 text-left">
-            Director Research & Head of School of Science and Engineering
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
             Curtain University , Dubai
           </td>
         </tr>
@@ -46,7 +39,6 @@ export default function AdvCommittee() {
           <td className="p-2 border-b border-slate-500 text-left">
             Dr. Arasan Uthayasuryan
           </td>
-          <td className="p-2 border-b border-slate-500 text-left">Post Doc</td>
           <td className="p-2 border-b border-slate-500 text-left">
             ENSTA,Paris
           </td>
@@ -54,9 +46,6 @@ export default function AdvCommittee() {
         <tr>
           <td className="p-2 border-b border-slate-500 text-left">
             Dr. Priya Vishnu
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Assistant Professor
           </td>
           <td className="p-2 border-b border-slate-500 text-left">
             Massey University, New Zealand
@@ -67,9 +56,6 @@ export default function AdvCommittee() {
             Dr. Roshan Thomas
           </td>
           <td className="p-2 border-b border-slate-500 text-left">
-            Assistant Professor
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
             Penn State University, USA
           </td>
         </tr>
@@ -77,7 +63,7 @@ export default function AdvCommittee() {
           <td className="p-2 border-b border-slate-500 text-left">
             Dr. Beulah Moses
           </td>
-          <td className="p-2 border-b border-slate-500 text-left">Professor</td>
+
           <td className="p-2 border-b border-slate-500 text-left">
             Sydney Australia
           </td>
@@ -86,7 +72,7 @@ export default function AdvCommittee() {
           <td className="p-2 border-b border-slate-500 text-left">
             Dr. Gopalan Jagadeesh
           </td>
-          <td className="p-2 border-b border-slate-500 text-left">Professor</td>
+
           <td className="p-2 border-b border-slate-500 text-left">
             Aerospace dept, IISc
           </td>
@@ -95,9 +81,7 @@ export default function AdvCommittee() {
           <td className="p-2 border-b border-slate-500 text-left">
             Dr.Joseph Lefkowitz
           </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Assistant Professor
-          </td>
+
           <td className="p-2 border-b border-slate-500 text-left">
             Technion Israel Institute of Technology and Science
           </td>
@@ -106,9 +90,7 @@ export default function AdvCommittee() {
           <td className="p-2 border-b border-slate-500 text-left">
             Dr.Chan Wai Lee
           </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Assistant Professor
-          </td>
+
           <td className="p-2 border-b border-slate-500 text-left">
             NTU, Singapore
           </td>

@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Contact() {
   return (
     <div
@@ -8,6 +7,7 @@ export default function Contact() {
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100vh",
+
       }}
     >
       <section className="text-gray-400 body-font">
@@ -47,7 +47,7 @@ export default function Contact() {
                 />
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                  Dr. Vekatachalam
+                  Dr. Venkatachalam
                   </h2>
                   <p className="text-gray-500">Assistant Professor</p>
                   <p className="text-gray-500">Phone:(Mobile: 9791175905)</p>
