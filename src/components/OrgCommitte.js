@@ -32,11 +32,11 @@ const committeeMembers = [
 ];
 
 const patrons = [
-  { name: "Dr. Mannar Jawahar", position: "Vice-Chancellor, KITS" },
+  { name: "Dr. G. Prince Arul Raj", position: "Vice-Chancellor, KITS" },
   { name: "Dr. E. J. James", position: "Pro Vice-Chancellor, Research and Collaborations, KITS" },
   { name: "Dr. Ridling Margaret Waller", position: "Pro Vice-Chancellor, Quality Standards, KITS" },
   { name: "Dr. R. Elijah Blessing", position: "Registrar, KITS" },
-  { name: "Dr. G. Prince Arulraj", position: "Dean, School of Engineering and Technology, KITS" },
+  { name: "Dr. Nirmal", position: "Associate Dean, School of Engineering and Technology, KITS" },
 ];
 
 const coPatrons = [
@@ -97,7 +97,7 @@ export default function OrgCommittee() {
           <CommitteeSection title="CO-PATRONS" members={coPatrons} />
           <CommitteeSection title="CONVENOR" members={[convenor]} />
           <CommitteeSection title="ORGANIZING SECRETARY" members={[organizingSecretary]} />
-          <CommitteeSection title="MEMBER SECRETARY" members={memberSecretary} />
+          <CommitteeSection title="MEMBER SECRETARIES" members={memberSecretary} />
           <CommitteeSection title="MEMBER COORDINATORS" members={memberCoordinators} />
         </div>
       </div>
