@@ -53,6 +53,15 @@ export default function AdvCommittee() {
         </tr>
         <tr>
           <td className="p-2 border-b border-slate-500 text-left">
+            Dr. Gopalan Jagadeesh
+          </td>
+
+          <td className="p-2 border-b border-slate-500 text-left">
+            Aerospace dept, IISc
+          </td>
+        </tr>
+        <tr>
+          <td className="p-2 border-b border-slate-500 text-left">
             Dr. Roshan Thomas
           </td>
           <td className="p-2 border-b border-slate-500 text-left">
@@ -66,15 +75,6 @@ export default function AdvCommittee() {
 
           <td className="p-2 border-b border-slate-500 text-left">
             Sydney Australia
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Gopalan Jagadeesh
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left">
-            Aerospace dept, IISc
           </td>
         </tr>
         <tr>
@@ -128,7 +128,7 @@ export default function AdvCommittee() {
         </tr>
         <tr>
           <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Mahesh
+            Dr. M. S. Mahesh
           </td>
           <td className="p-2 border-b border-slate-500 text-left pl-20">
             Department of Mechanical &amp; Aerospace Engineering, IIT Hyderabad,
@@ -168,7 +168,7 @@ export default function AdvCommittee() {
           </td>
         </tr>
         <tr>
-          <td className="p-2 border-b border-slate-500 text-left">Dr. Sunil</td>
+          <td className="p-2 border-b border-slate-500 text-left">Dr. S. Sunil</td>
           <td className="p-2 border-b border-slate-500 text-left pl-20">
             LPSC, ISRO, India
           </td>
@@ -183,28 +183,19 @@ export default function AdvCommittee() {
         </tr>
         <tr>
           <td className="p-2 border-b border-slate-500 text-left">
-            Mr. Gerald
+          Dr. R Santhanakrishnan
           </td>
           <td className="p-2 border-b border-slate-500 text-left pl-20">
-            Wind care-India Pvt Ltd
+           Karnataka
           </td>
         </tr>
         <tr>
           <td className="p-2 border-b border-slate-500 text-left">
-            Dr. R Santhanakrishnan
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            SAARC Maststech Pvt Ltd, Karnataka
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left ">
             Dr. Srisha Rao M V
           </td>
 
           <td className="p-2 border-b border-slate-500 text-left pl-20">
-            Aerospace dept, IISc
+          IISc Bangalore
           </td>
         </tr>
         <tr>
@@ -212,7 +203,15 @@ export default function AdvCommittee() {
             R Perumal pillai
           </td>
           <td className="p-2 border-b border-slate-500 text-left pl-20">
-            Deputy Division Head,SAIE,IPRC
+            IPRC, Tirunelveli
+          </td>
+        </tr>
+        <tr>
+          <td className="p-2 border-b border-slate-500 text-left">
+            Dr. Prem Kumar
+          </td>
+          <td className="p-2 border-b border-slate-500 text-left pl-20">
+          Kumaraguru College of Technology
           </td>
         </tr>
       </table>
