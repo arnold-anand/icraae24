@@ -1,5 +1,48 @@
-import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
+
 export default function Home() {
+  // State variable to store the remaining time
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  // Calculate the time remaining until March 29, 2023, 9:00 PM
+  function calculateTimeLeft() {
+    const targetDate = new Date("2024-03-29T21:00:00Z");
+    const currentDate = new Date();
+    const timeDifference = targetDate - currentDate;
+
+    if (timeDifference <= 0) {
+      // The countdown has ended
+      return {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+      };
+    }
+
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+    return {
+      days,
+      hours,
+      minutes,
+      seconds,
+    };
+  }
+
+  // Update the countdown timer every second
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    // Clear the timer when the component unmounts
+    return () => clearInterval(timer);
+  }, []);
+
   return (
     <>
       <div
@@ -12,8 +55,7 @@ export default function Home() {
         }}
       >
         <div className="text-white tracking-widest w-56 ml-3 p-3 text-3xl font-bold md:w-48 md:text-5xl">
-          2<sup>nd</sup> International Conference on Recent Advancements in Aerospace
-          Engineering
+          2<sup>nd</sup> International Conference on Recent Advancements in Aerospace Engineering
         </div>
         <button className="ml-5 text-xl font-bold border-2 border-solid border-white p-3 rounded-lg w-56 bg-white my-3 max-w-xl">
           Register Now
@@ -31,19 +73,22 @@ export default function Home() {
             }}
           >
             <div className="text-6xl w-[40%] py-56">
-              2<sup>nd</sup> International Conference on Recent Advances in Aerospace
-              Engineering
+              2<sup>nd</sup> International Conference on Recent Advances in Aerospace Engineering
             </div>
-            <div className="py-56">
-              <div className="w-full text-white text-6xl flex-col items-center mr-10 space-y-20">
-                <div className="flex">
-                  <div className="hrs">00</div>
+            <div className="timer py-56">
+              <div className="w-full text-white text-6xl flex-col items-center mr-10 space-y-20 max-w-[400px] p-3">
+                <div className="flex items-center justify-center">
+                  <div className="hrs">{timeLeft.days.toString().padStart(2, "0")}</div>
                   <div>:</div>
-                  <div className="mins">00</div>
+                  <div className="mins">{timeLeft.hours.toString().padStart(2, "0")}</div>
                   <div>:</div>
-                  <div className="seconds">00</div>
+                  <div className="seconds">{timeLeft.minutes.toString().padStart(2, "0")}</div>
+                  <div>:</div>
+                  <div className="seconds">{timeLeft.seconds.toString().padStart(2, "0")}</div>
                 </div>
-                <div className="text-xl text-center">Begins in 0 Days</div>
+                <div className="text-xl text-center">
+                  {`Begins in ${timeLeft.days} Days ${timeLeft.hours} Hours ${timeLeft.minutes} Minutes ${timeLeft.seconds} Seconds`}
+                </div>
                 <button className="w-full text-2xl p-5 border-2 border-solid border-white rounded-xl">
                   Register Now
                 </button>
@@ -52,12 +97,15 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div style={{
+      <div
+        style={{
           backgroundImage: "url(/stars.webp)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100%",
-        }} className="p-6 bg-[#020411] text-gray-300">
+        }}
+        className="p-6 bg-[#020411] text-gray-300"
+      >
         <div className="lg:p-10">
           <h1 className="text-3xl my-5">
             Karunya Institute of Technology & Sciences
