@@ -11,210 +11,262 @@ export default function AdvCommittee() {
       }}
       className=" flex flex-col justify-center items-center p-6 bg-[#020411] text-gray-300"
     >
-      <h1 className="font-bold text-xl text-center my-5 md:text-left">
-        International Advisory Committee
-      </h1>
-      <table className=" w-screen text-xs md:w-1/2 md:text-md">
-        <tr className="text-left">
-          <th className="p-2">Name</th>
-          <th className="p-2">Institute </th>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr.Erick C. Jones
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            University of Nevada, Reno , USA
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr.Chithirai Pon Selvan
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Curtain University , Dubai
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Arasan Uthayasuryan
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            ENSTA,Paris
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Priya Vishnu
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Massey University, New Zealand
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Gopalan Jagadeesh
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left">
-            Aerospace dept, IISc
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Roshan Thomas
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Penn State University, USA
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Beulah Moses
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left">
-            Sydney Australia
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr.Joseph Lefkowitz
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left">
-            Technion Israel Institute of Technology and Science
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr.Chan Wai Lee
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left">
-            NTU, Singapore
-          </td>
-        </tr>
-      </table>
-      <h1 className="font-bold text-xl text-center md:text-left my-5">
-        National Advisory Committee
-      </h1>
-      <table className="w-screen md:w-1/2 text-xs md:text-md">
-        <tr>
-          <th className="p-2 text-left">Name</th>
-          <th className="p-2 text-left pl-20">Institute</th>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            A M Pradeep
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            Aerospace Department, IIT Bombay
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500">Dr. T Jayachandran</td>
-          <td className="p-2 border-b border-slate-500 pl-20">IIT-Madras</td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. R C Mehta
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-          Dean School
-            of Aeronautical Studies, Nooral Islam, Nagercoil, India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. M. S. Mahesh
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            Department of Mechanical &amp; Aerospace Engineering, IIT Hyderabad,
-            India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr.Arnalt Stalin
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            BHEL, Ranipet , India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr.Benny Karunakar
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            IIT , Roorkee , India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Kuldeep Kr. Saxena
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            Lovely Professional University, Phagwara, Jalandhar, India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. G.L.Samuel
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            IIT Madras, India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">Dr. S. Sunil</td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            LPSC, ISRO, India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. John Tharakan
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            LPSC, ISRO, India
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-          Dr. R Santhanakrishnan
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-           Karnataka
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Srisha Rao M V
-          </td>
-
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-          IISc Bangalore
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            R Perumal pillai
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-            IPRC, Tirunelveli
-          </td>
-        </tr>
-        <tr>
-          <td className="p-2 border-b border-slate-500 text-left">
-            Dr. Prem Kumar
-          </td>
-          <td className="p-2 border-b border-slate-500 text-left pl-20">
-          Kumaraguru College of Technology
-          </td>
-        </tr>
-      </table>
+      <section class="text-gray-400 body-font">
+        <div class="container px-5 py-10 mx-auto">
+          <div class="flex flex-col text-center w-full mb-10">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              International Advisory Committee
+            </h1>
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr.Erick C. Jones
+                  </h2>
+                  <p class="text-gray-400">University of Nevada, Reno , USA</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr.Chithirai Pon Selvan
+                  </h2>
+                  <p class="text-gray-400">Curtain University , Dubai</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr. Arasan Uthayasuryan
+                  </h2>
+                  <p class="text-gray-400">ENSTA,Paris</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr. Priya Vishnu
+                  </h2>
+                  <p class="text-gray-400"> Massey University, New Zealand</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr. Gopalan Jagadeesh
+                  </h2>
+                  <p class="text-gray-400">Aerospace dept, IISc</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr. Roshan Thomas
+                  </h2>
+                  <p class="text-gray-400"> Penn State University, USA</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr. Beulah Moses
+                  </h2>
+                  <p class="text-gray-400">Sydney Australia</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr.Joseph Lefkowitz
+                  </h2>
+                  <p class="text-gray-400">
+                    Technion Israel Institute of Technology and Science
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                    Dr.Chan Wai Lee
+                  </h2>
+                  <p class="text-gray-400"> NTU, Singaporer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="text-gray-400 body-font">
+        <div class="container px-5 py-10 mx-auto">
+          <div class="flex flex-col text-center w-full mb-10">
+            <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              National Advisory Committee
+            </h1>
+          </div>
+          <div class="flex flex-wrap -m-2">
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  A M Pradeep
+                  </h2>
+                  <p class="text-gray-400">Aerospace Department, IIT Bombay</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. T Jayachandran
+                  </h2>
+                  <p class="text-gray-400">IIT-Madras</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. R C Mehta
+                  </h2>
+                  <p class="text-gray-400">Dean School of Aeronautical Studies, Nooral Islam, Nagercoil, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. M. S. Mahesh
+                  </h2>
+                  <p class="text-gray-400"> Department of Mechanical & Aerospace Engineering, IIT Hyderabad, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr.Arnalt Stalin	
+                  </h2>
+                  <p class="text-gray-400">BHEL, Ranipet , India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr.Benny Karunakar
+                  </h2>
+                  <p class="text-gray-400">IIT, Roorkee, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. Kuldeep Kr. Saxena
+                  </h2>
+                  <p class="text-gray-400">Lovely Professional University, Phagwara, Jalandhar, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. G.L.Samuel
+                  </h2>
+                  <p class="text-gray-400">
+                  IIT Madras, India
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. S. Sunil	
+                  </h2>
+                  <p class="text-gray-400">LPSC, ISRO, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. John Tharakan
+                  </h2>
+                  <p class="text-gray-400">LPSC, ISRO, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. R Santhanakrishnan
+                  </h2>
+                  <p class="text-gray-400">Karnataka, India</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. Srisha Rao M V	
+                  </h2>
+                  <p class="text-gray-400">IISc Bangalore</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  R Perumal pillai	
+                  </h2>
+                  <p class="text-gray-400">IPRC, Tirunelveli</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-white title-font font-medium">
+                  Dr. Prem Kumar
+                  </h2>
+                  <p class="text-gray-400">Kumaraguru College of Technology</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
