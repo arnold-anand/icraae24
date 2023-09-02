@@ -21,8 +21,12 @@ export default function Home() {
     }
 
     const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
-    const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+    const hours = Math.floor(
+      (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor(
+      (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
+    );
     const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
     return {
@@ -55,7 +59,8 @@ export default function Home() {
         }}
       >
         <div className="text-white tracking-widest w-56 ml-3 p-3 text-3xl font-bold md:w-48 md:text-5xl">
-          2<sup>nd</sup> International Conference on Recent Advancements in Aerospace Engineering
+          2<sup>nd</sup> International Conference on Recent Advancements in
+          Aerospace Engineering
         </div>
         <button className="ml-5 text-xl font-bold border-2 border-solid border-white p-3 rounded-lg w-56 bg-white my-3 max-w-xl">
           Register Now
@@ -73,21 +78,60 @@ export default function Home() {
             }}
           >
             <div className="text-6xl w-[40%] py-56">
-              2<sup>nd</sup> International Conference on Recent Advances in Aerospace Engineering
+              2<sup>nd</sup> International Conference on Recent Advances in
+              Aerospace Engineering
             </div>
             <div className="timer py-56">
               <div className="w-full text-white text-6xl flex-col items-center mr-10 space-y-20 max-w-[400px] p-3">
                 <div className="flex items-center justify-center">
-                  <div className="hrs">{timeLeft.days.toString().padStart(2, "0")}</div>
-                  <div>:</div>
-                  <div className="mins">{timeLeft.hours.toString().padStart(2, "0")}</div>
-                  <div>:</div>
-                  <div className="seconds">{timeLeft.minutes.toString().padStart(2, "0")}</div>
-                  <div>:</div>
-                  <div className="seconds">{timeLeft.seconds.toString().padStart(2, "0")}</div>
+                  <div className="flex flex-col items-center justify-center space-y-6">
+                    <div className="hrs">
+                      {timeLeft.days.toString().padStart(2, "0")}
+                    </div>
+                    <div className="text-xl">Days</div>
+                  </div>
+                  <div className="mb-14 p-2">:</div>
+                  <div className="flex flex-col items-center justify-center space-y-6">
+                    <div className="mins">
+                      {timeLeft.hours.toString().padStart(2, "0")}
+                    </div>
+                    <div className="text-xl">Hours</div>
+                  </div>
+
+                  <div className="mb-14 p-2">:</div>
+                  <div className="flex flex-col items-center justify-center space-y-6">
+                    <div className="seconds">
+                      {timeLeft.minutes.toString().padStart(2, "0")}
+                    </div>
+                    <div className="text-xl">Minutes</div>
+                  </div>
+
+                  <div className="mb-14 p-2">:</div>
+                  <div className="flex flex-col items-center justify-center space-y-6">
+                    <div className="seconds">
+                      {timeLeft.seconds.toString().padStart(2, "0")}
+                    </div>
+                    <div className="text-xl">Seconds</div>
+                  </div>
                 </div>
-                <div className="text-xl text-center">
-                  {`Begins in ${timeLeft.days} Days ${timeLeft.hours} Hours ${timeLeft.minutes} Minutes ${timeLeft.seconds} Seconds`}
+                <div className="text-xl text-center text-white flex justify-center space-x-4 items-center">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
+                    />
+                  </svg>
+                  <div>
+                    March 29 <sup>th</sup> and 30 <sup>th</sup> 2024
+                  </div>
                 </div>
                 <button className="w-full text-2xl p-5 border-2 border-solid border-white rounded-xl">
                   Register Now
