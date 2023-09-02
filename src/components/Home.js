@@ -6,7 +6,7 @@ export default function Home() {
 
   // Calculate the time remaining until March 29, 2023, 9:00 PM
   function calculateTimeLeft() {
-    const targetDate = new Date("2024-03-29T21:00:00Z");
+    const targetDate = new Date("2024-03-29T10:00:00Z");
     const currentDate = new Date();
     const timeDifference = targetDate - currentDate;
 
