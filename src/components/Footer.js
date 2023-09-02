@@ -16,8 +16,6 @@ export default function Footer() {
           <a
             href="https://instagram.com/karunyahacks?igshid=NjIwNzIyMDk2Mg=="
             className="text-gray-600 ml-1"
-            rel="noopener noreferrer"
-            target="_blank"
           >
             Developed by Arnold @ KarunyaHacks
           </a>
