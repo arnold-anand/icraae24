@@ -73,7 +73,7 @@ export default function Home() {
       <div className="hidden lg:block">
         <div className="-mt-20">
           <div
-            className="h-screen text-white px-5 flex justify-between"
+            className="h-screen text-white px-10 flex justify-between"
             style={{
               backgroundImage: "url(/rocket.webp)",
               backgroundSize: "cover",

@@ -12,7 +12,7 @@ export default function () {
     >
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               CHIEF PATRONS
             </h1>
@@ -44,7 +44,7 @@ export default function () {
 
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               PATRONS
             </h1>
@@ -111,7 +111,7 @@ export default function () {
       </section>
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               CO-PATRONS
             </h1>
@@ -188,7 +188,7 @@ export default function () {
       </section>
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             CONVENOR
             </h1>
@@ -211,7 +211,7 @@ export default function () {
       </section>
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             ORGANIZING SECRETARY
             </h1>
@@ -234,7 +234,7 @@ export default function () {
       </section>
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             MEMBER SECRETARIES
             </h1>
@@ -265,7 +265,7 @@ export default function () {
       </section>
       <section className="text-gray-400 body-font">
         <div className="container px-5 py-5 mx-auto">
-          <div className="flex flex-col text-center w-full mb-10">
+          <div className="flex flex-col text-center w-full ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             MEMBER COORDINATORS
             </h1>
