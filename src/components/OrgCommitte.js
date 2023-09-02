@@ -1,80 +1,6 @@
 import React from "react";
 
-const CommitteeSection = ({ title, members }) => (
-  <div className="flex justify-center items-center mt-10">
-    <table className="md:w-[90%] text-sm md:text-md lg:text-md">
-      <tr>
-        <th colSpan={2} className="text-2xl">
-          {title}
-        </th>
-      </tr>
-      {members.map((member, index) => (
-        <tr key={index}>
-          <td className="p-2 border-b border-slate-500">{member.name}</td>
-          <td className="p-2 border-b border-slate-500">{member.position}</td>
-        </tr>
-      ))}
-    </table>
-  </div>
-);
-
-const committeeMembers = [
-  {
-    title: "CHEIF PATRON",
-    name: "Dr. Paul Dhinakaran",
-    position: "Chancellor, KITS",
-  },
-  {
-    name: "Dr. Samuel Dhinakaran",
-    position: "Trustee, KITS",
-  },
-  // Add other committee members here
-];
-
-const patrons = [
-  { name: "Dr. G. Prince Arul Raj", position: "Vice-Chancellor, KITS" },
-  { name: "Dr. E. J. James", position: "Pro Vice-Chancellor, Research and Collaborations, KITS" },
-  { name: "Dr. Ridling Margaret Waller", position: "Pro Vice-Chancellor, Quality Standards, KITS" },
-  { name: "Dr. R. Elijah Blessing", position: "Registrar, KITS" },
-  { name: "Dr. Nirmal", position: "Associate Dean, School of Engineering and Technology, KITS" },
-];
-
-const coPatrons = [
-  { name: "Dr. K.R.S Krishnan", position: "Director-Innovation, Incubation & Entrepreneurship" },
-  { name: "Dr. Madhu Ganesh", position: "Director-Industry Academia Collaboration" },
-  { name: "Dr. D. Tensing", position: "Director-IQAC" },
-  { name: "Dr. S. J. Vijay", position: "Director-Research and Consultancy" },
-  { name: "Dr. S. Albones Raj", position: "Director Students Affairs" },
-  { name: "Shri. CA.A. Joseph Amulraj", position: "Finance Officer" },
-];
-
-const convenor = {
-  title: "CONVENOR",
-  name: "Dr. Jims John Wessley",
-  position: "Asso. Prof. & Head, Aerospace Engineering",
-};
-
-const organizingSecretary = {
-  title: "ORGANIZING SECRETARY",
-  name: "Dr. Aldin Justin Sundararaj",
-  position: "Asst.Prof., Aerospace Engg.",
-};
-
-const memberSecretary = [
-  { name: "Dr. S. Venkatachalam", position: "Asst.Prof., Aerospace Engg." },
-  { name: "Dr. K. Anton Savio Lewise", position: "Asst.Prof., Aerospace Engg." },
-];
-
-const memberCoordinators = [
-  { name: "Dr. Robinson Smart", position: "Prof., Aerospace Engg." },
-  { name: "Dr. Prawin Angel", position: "Asso.Prof., Aerospace Engg." },
-  { name: "Mrs. Gayathri", position: "Asst.Prof., Aerospace Engg." },
-  { name: "Dr. Sushanlal Babu", position: "Asst.Prof., Aerospace Engg." },
-  { name: "Mr. Prawin", position: "Asst.Prof., Aerospace Engg." },
-  { name: "Dr. R. Ajith Raj", position: "Asst.Prof., Aerospace Engg." },
-];
-
-export default function OrgCommittee() {
+export default function () {
   return (
     <div
       style={{
@@ -84,23 +10,336 @@ export default function OrgCommittee() {
         height: "100%",
       }}
     >
-      <div className="text-gray-300 p-5">
-        <div className="flex flex-col justify-center items-center">
-          {committeeMembers.map((member, index) => (
-            <div className="text-center" key={index}>
-              <div className="text-3xl font-semibold p-2">{member.title}</div>
-              <div className="text-xl">{member.name}</div>
-              <div className="text-md">{member.position}</div>
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              CHIEF PATRONS
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-2 items-center justify-center">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. PAUL DHINAKARAN
+                  </h2>
+                  <p className="text-gray-400">Chancellor, KITS</p>
+                </div>
+              </div>
             </div>
-          ))}
-          <CommitteeSection title="PATRONS" members={patrons} />
-          <CommitteeSection title="CO-PATRONS" members={coPatrons} />
-          <CommitteeSection title="CONVENOR" members={[convenor]} />
-          <CommitteeSection title="ORGANIZING SECRETARY" members={[organizingSecretary]} />
-          <CommitteeSection title="MEMBER SECRETARIES" members={memberSecretary} />
-          <CommitteeSection title="MEMBER COORDINATORS" members={memberCoordinators} />
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. Samuel Dhinakaran
+                  </h2>
+                  <p className="text-gray-400">Trustee, KITS</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              PATRONS
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-2">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. G. Prince Arul Raj
+                  </h2>
+                  <p className="text-gray-400">Vice-Chancellor, KITS</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. E. J. James
+                  </h2>
+                  <p className="text-gray-400">
+                    Pro Vice-Chancellor, Research and Collaborations, KITS
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. Ridling Margaret Waller
+                  </h2>
+                  <p className="text-gray-400">
+                    Pro Vice-Chancellor, Quality Standards, KITS
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. R. Elijah Blessing
+                  </h2>
+                  <p className="text-gray-400">Registrar, KITS</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. Nirmal
+                  </h2>
+                  <p className="text-gray-400">
+                    Associate Dean, School of Engineering and Technology, KITS
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              CO-PATRONS
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-2">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. K.R.S Krishnan
+                  </h2>
+                  <p className="text-gray-400">
+                    Director-Innovation, Incubation & Entrepreneurship
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. Madhu Ganesh
+                  </h2>
+                  <p className="text-gray-400">
+                    Director-Industry Academia Collaboration
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. D. Tensing
+                  </h2>
+                  <p className="text-gray-400">Director-IQAC</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. S. J. Vijay
+                  </h2>
+                  <p className="text-gray-400">
+                    Director-Research and Consultancy
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Dr. S. Albones Raj
+                  </h2>
+                  <p className="text-gray-400">Director Students Affairs</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                    Shri. CA.A. Joseph Amulraj
+                  </h2>
+                  <p className="text-gray-400">Finance Officer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            CONVENOR
+            </h1>
+          </div>
+          <div className="flex items-center justify-center flex-wrap -m-2">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. Jims John Wessley
+                  </h2>
+                  <p className="text-gray-400">
+                  Asso. Prof. & Head, Aerospace Engineering
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            ORGANIZING SECRETARY
+            </h1>
+          </div>
+          <div className="flex items-center justify-center flex-wrap -m-2">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. Aldin Justin Sundararaj
+                  </h2>
+                  <p className="text-gray-400">
+                  Asst.Prof., Aerospace Engg.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            MEMBER SECRETARIES
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-2 items-center justify-center">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. S. Venkatachalam
+                  </h2>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. K. Anton Savio Lewise
+                  </h2>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="text-gray-400 body-font">
+        <div className="container px-5 py-5 mx-auto">
+          <div className="flex flex-col text-center w-full mb-10">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            MEMBER COORDINATORS
+            </h1>
+          </div>
+          <div className="flex flex-wrap -m-2">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. Robinson Smart
+                  </h2>
+                  <p className="text-gray-400">
+                  Prof., Aerospace Engg.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. Prawin Angel
+                  </h2>
+                  <p className="text-gray-400">
+                  Asso.Prof., Aerospace Engg.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Mrs. Gayathri
+                  </h2>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. Sushanlal Babu
+                  </h2>
+                  <p className="text-gray-400">
+                  Asst.Prof., Aerospace Engg.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Mr. Prawin
+                  </h2>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-white title-font font-medium">
+                  Dr. R. Ajith Raj
+                  </h2>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
