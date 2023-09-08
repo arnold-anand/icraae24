@@ -19,11 +19,13 @@ export default function Topics() {
             </div>
             <div className="m-5">
               <ul className="list-decimal space-y-7">
-                <li>Clean Combustion</li>
+                <li>Advances in Space Propulsion and Power Concepts</li>
+                <li>Clean Combustion, Performance and Emission</li>
                 <li>Green Propellants</li>
                 <li>Cryogenics</li>
-                <li>Thermal analysis</li>
-                <li>Heat exchangers</li>
+                <li>Thermal Analysis</li>
+                <li>Heat Exchangers</li>
+                <li>Atomization and Sprays</li>
               </ul>
             </div>
           </div>
@@ -33,13 +35,13 @@ export default function Topics() {
             </div>
             <div className="m-5">
               <ul className="list-decimal space-y-4">
-                <li>Wind tunnel testing</li>
-                <li>Shock waves</li>
+                <li>Wind Tunnel Testing</li>
+                <li>Shock Waves</li>
                 <li>Hypersonic</li>
-                <li>Re-entry aerodynamics</li>
+                <li>Re-entry Aerodynamics</li>
                 <li>Acoustics</li>
                 <li>Aero-elasticity</li>
-                <li>Fluid structure interaction</li>
+                <li>Fluid Structure Interaction</li>
               </ul>
             </div>
           </div>
