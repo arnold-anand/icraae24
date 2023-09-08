@@ -177,7 +177,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                    Shri. CA.A. Joseph Amulraj
+                    Shri. CA. A. Joseph Amulraj
                   </h2>
                   <p className="text-gray-400">Finance Officer, KITS</p>
                 </div>
@@ -202,7 +202,7 @@ export default function () {
                   Dr. Jims John Wessley
                   </h2>
                   <p className="text-gray-400">
-                  Asso. Prof. & Head, Aerospace Engineering
+                  Asso. Prof. & Head, Aerospace Engineering, KITS
                   </p>
                 </div>
               </div>
@@ -225,7 +225,7 @@ export default function () {
                   Dr. Aldin Justin Sundararaj
                   </h2>
                   <p className="text-gray-400">
-                  Asst.Prof., Aerospace Engg.
+                  Asst.Prof., Aerospace Engineering, KITS
                   </p>
                 </div>
               </div>
@@ -247,7 +247,7 @@ export default function () {
                   <h2 className="text-white title-font font-medium">
                   Dr. S. Venkatachalam
                   </h2>
-                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engineering</p>
                 </div>
               </div>
             </div>
@@ -257,7 +257,7 @@ export default function () {
                   <h2 className="text-white title-font font-medium">
                   Dr. K. Anton Savio Lewise
                   </h2>
-                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engineering</p>
                 </div>
               </div>
             </div>
@@ -276,10 +276,10 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                  Dr. Robinson Smart
+                  Dr. D. Robinson Smart
                   </h2>
                   <p className="text-gray-400">
-                  Prof., Aerospace Engg.
+                  Prof., Aerospace Engineering
                   </p>
                 </div>
               </div>
@@ -288,10 +288,10 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                  Dr. Prawin Angel
+                  Dr. Prawin Angel Michael
                   </h2>
                   <p className="text-gray-400">
-                  Asso.Prof., Aerospace Engg.
+                  Asso.Prof., Aerospace Engineering
                   </p>
                 </div>
               </div>
@@ -300,9 +300,9 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                  Mrs. Gayathri
+                  Mrs. Gayathri G.
                   </h2>
-                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engineering</p>
                 </div>
               </div>
             </div>
@@ -313,7 +313,7 @@ export default function () {
                   Dr. Sushanlal Babu
                   </h2>
                   <p className="text-gray-400">
-                  Asst.Prof., Aerospace Engg.
+                  Asst.Prof., Aerospace Engineering
                   </p>
                 </div>
               </div>
@@ -322,9 +322,9 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                  Mr. Prawin
+                  Mr. Prawin L.
                   </h2>
-                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engineering</p>
                 </div>
               </div>
             </div>
@@ -334,7 +334,7 @@ export default function () {
                   <h2 className="text-white title-font font-medium">
                   Dr. R. Ajith Raj
                   </h2>
-                  <p className="text-gray-400">Asst.Prof., Aerospace Engg.</p>
+                  <p className="text-gray-400">Asst.Prof., Aerospace Engineering</p>
                 </div>
               </div>
             </div>
