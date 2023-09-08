@@ -54,7 +54,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                    Dr. G. Prince Arul Raj
+                    Dr. G. Prince Arulraj
                   </h2>
                   <p className="text-gray-400">Vice-Chancellor, KITS</p>
                 </div>
@@ -98,7 +98,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                    Dr. Nirmal
+                    Dr. D. Nirmal
                   </h2>
                   <p className="text-gray-400">
                     Associate Dean, School of Engineering and Technology, KITS
@@ -121,10 +121,10 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-white title-font font-medium">
-                    Dr. K.R.S Krishnan
+                    Dr. K.R.S. Krishnan
                   </h2>
                   <p className="text-gray-400">
-                    Director-Innovation, Incubation & Entrepreneurship
+                    Director-Innovation, Incubation & Entrepreneurship, KITS
                   </p>
                 </div>
               </div>
@@ -136,7 +136,7 @@ export default function () {
                     Dr. Madhu Ganesh
                   </h2>
                   <p className="text-gray-400">
-                    Director-Industry Academia Collaboration
+                    Director-Industry Academia Collaboration, KITS
                   </p>
                 </div>
               </div>
@@ -147,7 +147,7 @@ export default function () {
                   <h2 className="text-white title-font font-medium">
                     Dr. D. Tensing
                   </h2>
-                  <p className="text-gray-400">Director-IQAC</p>
+                  <p className="text-gray-400">Director-IQAC, KITS</p>
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function () {
                     Dr. S. J. Vijay
                   </h2>
                   <p className="text-gray-400">
-                    Director-Research and Consultancy
+                    Director-Research and Consultancy, KITS
                   </p>
                 </div>
               </div>
@@ -169,7 +169,7 @@ export default function () {
                   <h2 className="text-white title-font font-medium">
                     Dr. S. Albones Raj
                   </h2>
-                  <p className="text-gray-400">Director Students Affairs</p>
+                  <p className="text-gray-400">Director Students Affairs, KITS</p>
                 </div>
               </div>
             </div>
@@ -179,7 +179,7 @@ export default function () {
                   <h2 className="text-white title-font font-medium">
                     Shri. CA.A. Joseph Amulraj
                   </h2>
-                  <p className="text-gray-400">Finance Officer</p>
+                  <p className="text-gray-400">Finance Officer, KITS</p>
                 </div>
               </div>
             </div>

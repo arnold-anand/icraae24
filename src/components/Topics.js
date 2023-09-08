@@ -37,22 +37,24 @@ export default function Topics() {
               <ul className="list-decimal space-y-4">
                 <li>Wind Tunnel Testing</li>
                 <li>Shock Waves</li>
-                <li>Hypersonic</li>
+                <li>Hypersonic Aerodynamics</li>
                 <li>Re-entry Aerodynamics</li>
                 <li>Acoustics</li>
-                <li>Aero-elasticity</li>
+                <li>Aeroelasticity</li>
                 <li>Fluid Structure Interaction</li>
               </ul>
             </div>
           </div>
           <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
             <div className="text-md font-bold text-center">
-              Materials and composites
+              Materials and Composites
             </div>
             <div className="m-5">
               <ul className="list-decimal space-y-7">
                 <li>Smart Materials</li>
-                <li>Additives Manufacturing</li>
+                <li>Additive Manufacturing</li>
+                <li>Advanced Joining Methods</li>
+                <li>Material Charecterisation</li>
                 <li>3-D printing</li>
                 <li>Modelling and simulation technologies</li>
                 <li>Structural analysis</li>
@@ -79,9 +81,14 @@ export default function Topics() {
             </div>
             <div className="m-5">
               <ul className="list-decimal space-y-20">
-                <li>Digital aviation</li>
+                <li>Digital Aviation</li>
+                <li>Drone Technology</li>
+                <li>Anti Drone Technology</li>
                 <li>Aircraft Maintenance</li>
-                <li>Civil aviation and Space policies</li>
+                <li>Civil Aviation and Space Policies</li>
+                <li>Helicopter Technology</li>
+                <li>Aircraft Design</li>
+                <li>Launch Vehicle Systerms and Technologies</li>
               </ul>
             </div>
           </div>
@@ -91,11 +98,13 @@ export default function Topics() {
             </div>
             <div className="m-5">
               <ul className="list-decimal space-y-7">
-                <li>Space dynamics and Interplanetary trajectory</li>
+                <li>Space Dynamics and Interplanetary Trajectory</li>
                 <li>Defence and Security</li>
-                <li>Space resource utilization</li>
+                <li>Space Resource Utilization</li>
                 <li>Astrophysics</li>
-                <li>Lander technology for space</li>
+                <li>Lander Technology for Space</li>
+                <li>Orbital Mechanics</li>
+                <li>Rocket Theory and Design</li>
               </ul>
             </div>
           </div>
@@ -106,15 +115,18 @@ export default function Topics() {
             <div className="m-5">
               <ul className="list-decimal space-y-2">
                 <li>Aviation 4.0</li>
-                <li>Human system interaction</li>
+                <li>Human System Unteraction</li>
                 <li>Sensors</li>
-                <li>MEMS</li>
-                <li>Mechatronics, microelectronics in Aerospace systems</li>
-                <li>Automation control and robotics</li>
+                <li>Digital Twinning</li>
+                <li>Mechatronics, Microelectronics in Aerospace systems</li>
+                <li>Automation Control and Robotics</li>
+                <li>Spacecraft System Design and Control</li>
+                <li>Avionic Systems and Integration</li>
+                <li>Satellite Collision and Guidance</li>
+                <li>Missile and Trajectory Design</li>
               </ul>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

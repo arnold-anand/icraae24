@@ -23,7 +23,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                    Dr.Erick C. Jones
+                    Dr. Erick C. Jones
                   </h2>
                   <p class="text-gray-400">University of Nevada, Reno , USA</p>
                 </div>
@@ -33,7 +33,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                    Dr.Chithirai Pon Selvan
+                    Dr. Chithirai Pon Selvan
                   </h2>
                   <p class="text-gray-400">Curtain University , Dubai</p>
                 </div>
@@ -65,7 +65,7 @@ export default function AdvCommittee() {
                   <h2 class="text-white title-font font-medium">
                     Dr. Gopalan Jagadeesh
                   </h2>
-                  <p class="text-gray-400">Aerospace dept, IISc</p>
+                  <p class="text-gray-400">Aerospace Dept, IISc, India</p>
                 </div>
               </div>
             </div>
@@ -75,7 +75,7 @@ export default function AdvCommittee() {
                   <h2 class="text-white title-font font-medium">
                     Dr. Roshan Thomas
                   </h2>
-                  <p class="text-gray-400"> Penn State University, USA</p>
+                  <p class="text-gray-400"> Pennsylvania State University, USA</p>
                 </div>
               </div>
             </div>
@@ -85,11 +85,11 @@ export default function AdvCommittee() {
                   <h2 class="text-white title-font font-medium">
                     Dr. Beulah Moses
                   </h2>
-                  <p class="text-gray-400">Sydney Australia</p>
+                  <p class="text-gray-400">University of South Australia, Australia</p>
                 </div>
               </div>
             </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
@@ -110,7 +110,7 @@ export default function AdvCommittee() {
                   <p class="text-gray-400"> NTU, Singaporer</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -126,7 +126,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  A M Pradeep
+                  A. M. Pradeep
                   </h2>
                   <p class="text-gray-400">Aerospace Department, IIT Bombay</p>
                 </div>
@@ -136,7 +136,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. T Jayachandran
+                  Dr. T. Jayachandran
                   </h2>
                   <p class="text-gray-400">IIT-Madras</p>
                 </div>
@@ -146,9 +146,9 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. R C Mehta
+                  Dr. R. C. Mehta
                   </h2>
-                  <p class="text-gray-400">Dean School of Aeronautical Studies, Nooral Islam, Nagercoil, India</p>
+                  <p class="text-gray-400">Nooral Islam Center for Higher Education, India</p>
                 </div>
               </div>
             </div>
@@ -158,7 +158,7 @@ export default function AdvCommittee() {
                   <h2 class="text-white title-font font-medium">
                   Dr. M. S. Mahesh
                   </h2>
-                  <p class="text-gray-400"> Department of Mechanical & Aerospace Engineering, IIT Hyderabad, India</p>
+                  <p class="text-gray-400">IIT Hyderabad, India</p>
                 </div>
               </div>
             </div>
@@ -166,7 +166,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr.Arnalt Stalin	
+                  Dr. Arnalt Stalin	
                   </h2>
                   <p class="text-gray-400">BHEL, Ranipet , India</p>
                 </div>
@@ -176,9 +176,9 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr.Benny Karunakar
+                  Dr. Benny Karunakar
                   </h2>
-                  <p class="text-gray-400">IIT, Roorkee, India</p>
+                  <p class="text-gray-400">IIT-Roorkee, India</p>
                 </div>
               </div>
             </div>
@@ -186,7 +186,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. Kuldeep Kr. Saxena
+                  Dr. Kuldeep K. Saxena
                   </h2>
                   <p class="text-gray-400">Lovely Professional University, Phagwara, Jalandhar, India</p>
                 </div>
@@ -196,7 +196,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. G.L.Samuel
+                  Dr. G. L. Samuel
                   </h2>
                   <p class="text-gray-400">
                   IIT Madras, India
@@ -208,7 +208,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. S. Sunil	
+                  Dr. S. Sunil Kumar
                   </h2>
                   <p class="text-gray-400">LPSC, ISRO, India</p>
                 </div>
@@ -228,9 +228,9 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. R Santhanakrishnan
+                  Dr. R. Santhanakrishnan
                   </h2>
-                  <p class="text-gray-400">Karnataka, India</p>
+                  <p class="text-gray-400">Master Tech. Pvt. Ltd. , Karnataka, India</p>
                 </div>
               </div>
             </div>
@@ -238,9 +238,9 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  Dr. Srisha Rao M V	
+                  Dr. Srisha Rao M. V	
                   </h2>
-                  <p class="text-gray-400">IISc Bangalore</p>
+                  <p class="text-gray-400">IISc, Bangalore, India</p>
                 </div>
               </div>
             </div>
@@ -248,9 +248,9 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-white title-font font-medium">
-                  R Perumal pillai	
+                  Shri. R. Perumal Pillai	
                   </h2>
-                  <p class="text-gray-400">IPRC, Tirunelveli</p>
+                  <p class="text-gray-400">IPRC, ISRO, India</p>
                 </div>
               </div>
             </div>
@@ -260,7 +260,7 @@ export default function AdvCommittee() {
                   <h2 class="text-white title-font font-medium">
                   Dr. Prem Kumar
                   </h2>
-                  <p class="text-gray-400">Kumaraguru College of Technology</p>
+                  <p class="text-gray-400">Kumaraguru College of Technology, India</p>
                 </div>
               </div>
             </div>
