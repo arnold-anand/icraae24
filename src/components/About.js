@@ -4,12 +4,12 @@ export default function About() {
   return (
     <div
       style={{
-        backgroundImage: "url(/stars.webp)",
+        // backgroundImage: "url(/stars.webp)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
         height: "100%",
       }}
-      className="p-6 bg-[#020411] text-gray-300"
+      className="p-6"
     >
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-2xl font-bold pb-6 ">Important Dates</h1>
@@ -27,7 +27,7 @@ export default function About() {
               Full Paper Submission Deadline
             </td>
             <td className="p-5 border border-slate-700">
-              16 <sup>th</sup> Nov 2023
+              30 <sup>th</sup> Nov 2023
             </td>
           </tr>
           <tr>
@@ -35,7 +35,7 @@ export default function About() {
               Notification of Acceptance
             </td>
             <td className="p-5 border border-slate-700">
-              16 <sup>th</sup> Nov 2023
+              15 <sup>th</sup> Dec 2023
             </td>
           </tr>
           <tr>
@@ -43,7 +43,7 @@ export default function About() {
               Last Date of Registration & Payment
             </td>
             <td className="p-5 border border-slate-700">
-              16 <sup>th</sup> Nov 2023
+              15 <sup>th</sup> Jan 2024
             </td>
           </tr>
           <tr>
@@ -51,7 +51,7 @@ export default function About() {
               Last Date For Revised Paper Submission
             </td>
             <td className="p-5 border border-slate-700">
-              16 <sup>th</sup> Nov 2023
+              30 <sup>th</sup> Jan 2024
             </td>
           </tr>
           <tr>
@@ -65,8 +65,8 @@ export default function About() {
       <div className="mt-3 lg:px-10">
         <h1 className="text-2xl font-bold">About Conference</h1>
         <p className="text-md lg:text-lg py-4 text-justify">
-          2nd International Conference on recent advances in aerospace
-          engineering aims to bring together leading academic scientists,
+          The second International Conference on Recent Advances in Aerospace
+          Engineering aims to bring together leading academic scientists,
           researchers and research scholars to exchange and share their
           experiences and research results on all aspects of Aerospace Sciences.
           It also provides a premier interdisciplinary platform for researchers,
@@ -81,18 +81,13 @@ export default function About() {
           shape the conference through submissions of their research abstracts
           and papers. Also, high quality research contributions describing
           original and unpublished results of conceptual, constructive,
-          empirical, experimental, or theoretical work in all areas of Aerospace
+          empirical, experimental, or theoretical work in all areas of Aerospace Engineering
           are cordially invited for presentation at the conference.
         </p>
 
         <h1 className="text-2xl font-bold">Call for Papers</h1>
         <p className="text-md lg:text-lg py-4 text-justify">
-          Prospective authors are kindly encouraged to contribute to and help
-          shape the conference through submissions of their research abstracts
-          and papers. Also, high quality research contributions describing
-          original and unpublished results of conceptual, constructive,
-          empirical, experimental, or theoretical work in all areas of Aerospace
-          are cordially invited for presentation at the conference.
+          Academicians, researchers and industry professionals are being invited to submit their original research papers previously unpublished, not currently under review by another conference or journal. All submission will be subjected to at least two blind reviews. Acceptance wil be based entirely on quality, relevance and originality. The authors can send their Abstracts/ Full paper(s) online. The decision of oral presentation will be strictly followed as per approval of technical review committee. All selected peer-reviewed research/ review papers presented in the conference will be recommended for publication in our supporting publishing partners.
         </p>
         <h1 className="text-2xl font-bold">Guidelines for Authors</h1>
         <p className="text-md lg:text-lg py-4 text-justify">
@@ -107,7 +102,7 @@ export default function About() {
           </p>
         </div>
         <div className="flex flex-col">
-          <h1 className="text-2xl font-bold">Registration fees</h1>
+          <h1 className="text-2xl font-bold">Registration Fees</h1>
           <table className="my-4 w-full text-sm max-w-md md:text-md lg:text-lg">
             <tr className="border border-gray-400">
               <th className="p-2">S.No</th>
@@ -116,12 +111,12 @@ export default function About() {
             </tr>
             <tr className="border border-gray-400">
               <td className="p-2 text-center">1</td>
-              <td className="p-2">Students UG &amp; PG</td>
+              <td className="p-2">UG &amp; PG Students</td>
               <td className="p-2 text-center">4000</td>
             </tr>
             <tr className="border border-gray-400">
               <td className="p-2 text-center">2</td>
-              <td className="p-2">Ph.D Scholars</td>
+              <td className="p-2">Ph.D. Scholars</td>
               <td className="p-2 text-center">5000</td>
             </tr>
             <tr className="border border-gray-400">
@@ -146,7 +141,7 @@ export default function About() {
         </div>
         <div>
           <h1 className="text-xl font-bold lg:text-2xl">
-            Glimpses of ICRAAE - 2017
+            Glimpses of 1 <sup>st</sup> International Conference ICRAAE
           </h1>
           <div className=" py-6 grid md:grid-cols-2 lg:grid-cols-4 gap-5 place-items-center">
             <img
