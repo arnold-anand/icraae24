@@ -137,9 +137,13 @@ export default function Home() {
                     March 29 <sup>th</sup> and 30 <sup>th</sup> 2024
                   </div>
                 </div>
+                <div className="">
+                <a rel="noreferrer" target="_blank" href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx">
                 <button className="w-full text-2xl p-5 border-2 border-solid border-white rounded-xl">
                   Register Now
                 </button>
+                </a>
+                </div>
               </div>
             </div>
           </div>

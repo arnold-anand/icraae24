@@ -3,13 +3,7 @@ import React from "react";
 export default function About() {
   return (
     <div
-      style={{
-        // backgroundImage: "url(/stars.webp)",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        height: "100%",
-      }}
-      className="p-6"
+      className="p-6 text-[#222] bg-slate-100"
     >
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-2xl font-bold pb-6 ">Important Dates</h1>

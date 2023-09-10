@@ -3,16 +3,11 @@ import React from "react";
 export default function Downloads() {
   return (
     <div
-      style={{
-        backgroundImage: "url(/stars.webp)",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        height: "100%",
-      }}
+    className="bg-slate-100"
     >
       <div className="grid place-items-center h-screen -mt-20">
-        <div className="border w-36 h-36 lg:w-48 lg:h-36 rounded-lg">
-          <div className="text-gray-300 bg-[#020411] rounded-t-lg p-3 text-center font-extrabold">
+        <div className="border border-black w-36 h-36 lg:w-48 lg:h-36 rounded-lg">
+          <div className="text-[#222] rounded-t-lg p-3 text-center font-extrabold">
             BROUCHURE
           </div>
           <div className="flex items-center justify-center h-fit">
@@ -26,7 +21,7 @@ export default function Downloads() {
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
-                stroke="currentColor"
+                stroke="black"
                 class="w-16 h-16"
               >
                 <path

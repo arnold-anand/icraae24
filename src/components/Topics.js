@@ -4,21 +4,16 @@ export default function Topics() {
   return (
     <div className="">
       <div
-        style={{
-          backgroundImage: "url(/stars.webp)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          height: "100%",
-        }}
-        className=" text-gray-300"
+
+        className="bg-slate-100 text-[#222]"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-0">
-        <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+        <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
               Propulsion & Heat transfer Technology
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-7">
+              <ul className="list-decimal space-y-5">
                 <li>Advances in Space Propulsion and Power Concepts</li>
                 <li>Clean Combustion, Performance and Emission</li>
                 <li>Green Propellants</li>
@@ -29,12 +24,12 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
               Experimental and Computational Aerodynamics
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-4">
+              <ul className="list-decimal space-y-7">
                 <li>Wind Tunnel Testing</li>
                 <li>Shock Waves</li>
                 <li>Hypersonic Aerodynamics</li>
@@ -45,7 +40,7 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
               Materials and Composites
             </div>
@@ -61,7 +56,7 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
             System Engineering
             </div>
@@ -75,12 +70,12 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
             Unmanned Aircraft Systems 
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-20">
+              <ul className="list-decimal space-y-5">
                 <li>Digital Aviation</li>
                 <li>Drone Technology</li>
                 <li>Anti Drone Technology</li>
@@ -92,7 +87,7 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
             Space Technology
             </div>
@@ -108,12 +103,12 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-96 w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md w-72">
             <div className="text-md font-bold text-center">
             Avionics, Communication Navigation Guidance and Control
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-2">
+              <ul className="list-decimal space-y-5">
                 <li>Aviation 4.0</li>
                 <li>Human System Unteraction</li>
                 <li>Sensors</li>
