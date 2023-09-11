@@ -67,7 +67,7 @@ export default function Home() {
           Aerospace Engineering
         </div>
         <div>
-          <a rel="noreferrer" href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx">
+          <a target="_blank" rel="noreferrer" href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx">
         <button className="ml-5 text-xl font-bold border-2 border-solid border-white p-3 rounded-lg w-56 bg-white my-3 max-w-xl">
           Register Now
         </button>
