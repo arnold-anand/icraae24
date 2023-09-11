@@ -121,7 +121,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-[#222] title-font font-medium">
-                  A. M. Pradeep
+                  Dr. A. M. Pradeep
                   </h2>
                   <p class="text-gray-500">Aerospace Department, IIT Bombay</p>
                 </div>
