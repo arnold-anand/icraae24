@@ -13,15 +13,15 @@ export default function About() {
               Abstract Submission Deadline
             </td>
             <td className="p-5 border border-slate-700">
-              2 <sup>nd</sup> Nov 2023
+              2 Nov 2023
             </td>
           </tr>
           <tr className="">
             <td className="p-5 border border-slate-700">
-              Abstract Acceptance Intimation
+              Notification of Abstract Acceptance
             </td>
             <td className="p-5 border border-slate-700">
-              15 <sup>th</sup> Nov 2023
+              10 Nov 2023
             </td>
           </tr>
           <tr>
@@ -29,23 +29,23 @@ export default function About() {
               Full Paper Submission Deadline
             </td>
             <td className="p-5 border border-slate-700">
-              30 <sup>th</sup> Nov 2023
+              15 Dec 2023
             </td>
           </tr>
-          <tr>
+          {/* <tr>
             <td className="p-5 border border-slate-700">
               Notification of Acceptance
             </td>
             <td className="p-5 border border-slate-700">
-              15 <sup>th</sup> Dec 2023
+              15 Dec 2023
             </td>
-          </tr>
+          </tr> */}
           <tr>
             <td className="p-5 border border-slate-700">
               Last Date For Revised Paper Submission
             </td>
             <td className="p-5 border border-slate-700">
-              30 <sup>th</sup> Jan 2024
+              15 Jan 2024
             </td>
           </tr>
           <tr>
@@ -53,14 +53,14 @@ export default function About() {
               Last Date of Registration & Payment
             </td>
             <td className="p-5 border border-slate-700">
-              12 <sup>th</sup> Feb 2024
+              15 Feb 2024
             </td>
           </tr>
           
           <tr>
             <td className="p-5 border border-slate-700">Conference Dates</td>
             <td className="p-5 border border-slate-700">
-              29 <sup>th</sup> & 30 <sup>th</sup> March 2024
+              29 & 30 March 2024
             </td>
           </tr>
         </table>

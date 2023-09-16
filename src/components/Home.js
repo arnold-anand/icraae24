@@ -145,7 +145,7 @@ export default function Home() {
                     />
                   </svg>
                   <div>
-                    March 29 <sup>th</sup> and 30 <sup>th</sup> 2024
+                    March 29 and 30 2024
                   </div>
                 </div>
                 <div className="">
