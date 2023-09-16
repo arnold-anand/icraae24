@@ -61,7 +61,7 @@ export default function () {
                     Dr. E. J. James
                   </h2>
                   <p className="text-gray-500">
-                    Pro Vice-Chancellor, Research and Collaborations, KITS
+                    Pro Vice-Chancellor, Strategy Innovation and Research, KITS
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ export default function () {
                     Dr. Madhu Ganesh
                   </h2>
                   <p className="text-gray-500">
-                    Director-Industry Academia Collaboration, KITS
+                    Director-Twinning Programme, KITS
                   </p>
                 </div>
               </div>
