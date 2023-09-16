@@ -35,6 +35,7 @@ export default function Navbar() {
         >
           <div className="p-5">
             <div className="flex justify-between items-center">
+            <img className="w-16" src="aesi-logo.png" alt="" />
             <img className="w-20 p-2" src="karunya-logo-white.png" alt="" />
               <div className="text-xl">ICRAAE</div>
               <div className="text-white cursor-pointer" onClick={toggleMenu}>
@@ -126,6 +127,7 @@ export default function Navbar() {
         <header className="sticky top-0 text-white w-screen px-10 bg-[#04040c] z-10">
           <div className="flex justify-between items-center">
             <div className="flex justify-center items-center">
+            <img className="w-20 p-2" src="aesi-logo.png" alt="" />
               <img className="w-20 p-3" src="karunya-logo-white.png" alt="" />
               <div className="text-3xl px-3">ICRAAE</div>
             </div>

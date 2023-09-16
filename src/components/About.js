@@ -16,6 +16,14 @@ export default function About() {
               2 <sup>nd</sup> Nov 2023
             </td>
           </tr>
+          <tr className="">
+            <td className="p-5 border border-slate-700">
+              Abstract Acceptance Intimation
+            </td>
+            <td className="p-5 border border-slate-700">
+              15 <sup>th</sup> Nov 2023
+            </td>
+          </tr>
           <tr>
             <td className="p-5 border border-slate-700">
               Full Paper Submission Deadline
@@ -34,20 +42,21 @@ export default function About() {
           </tr>
           <tr>
             <td className="p-5 border border-slate-700">
-              Last Date of Registration & Payment
-            </td>
-            <td className="p-5 border border-slate-700">
-              15 <sup>th</sup> Jan 2024
-            </td>
-          </tr>
-          <tr>
-            <td className="p-5 border border-slate-700">
               Last Date For Revised Paper Submission
             </td>
             <td className="p-5 border border-slate-700">
               30 <sup>th</sup> Jan 2024
             </td>
           </tr>
+          <tr>
+            <td className="p-5 border border-slate-700">
+              Last Date of Registration & Payment
+            </td>
+            <td className="p-5 border border-slate-700">
+              12 <sup>th</sup> Feb 2024
+            </td>
+          </tr>
+          
           <tr>
             <td className="p-5 border border-slate-700">Conference Dates</td>
             <td className="p-5 border border-slate-700">
@@ -57,7 +66,7 @@ export default function About() {
         </table>
       </div>
       <div className="mt-3 lg:px-10">
-        <h1 className="text-2xl font-bold">About Conference</h1>
+        <h1 className="text-2xl font-bold">About the Conference</h1>
         <p className="text-md lg:text-lg py-4 text-justify">
           The second International Conference on Recent Advances in Aerospace
           Engineering aims to bring together leading academic scientists,
@@ -81,7 +90,7 @@ export default function About() {
 
         <h1 className="text-2xl font-bold">Call for Papers</h1>
         <p className="text-md lg:text-lg py-4 text-justify">
-          Academicians, researchers and industry professionals are being invited to submit their original research papers previously unpublished, not currently under review by another conference or journal. All submission will be subjected to at least two blind reviews. Acceptance wil be based entirely on quality, relevance and originality. The authors can send their Abstracts/ Full paper(s) online. The decision of oral presentation will be strictly followed as per approval of technical review committee. All selected peer-reviewed research/ review papers presented in the conference will be recommended for publication in our supporting publishing partners.
+          Academicians, researchers and industry professionals are being invited to submit their original research papers previously unpublished, not currently under review by another conference or journal. All submission will be subjected to at least two blind reviews. Acceptance wil be based entirely on quality, relevance and originality. The authors can send their Abstracts/ Full paper(s) online. The selection for oral presentation will be strictly as per the feedback from the technical review committee. All selected peer-reviewed research/ review papers presented in the conference will be recommended for publication through our supporting publishing partners.
         </p>
         <h1 className="text-2xl font-bold">Guidelines for Authors</h1>
         <p className="text-md lg:text-lg py-4 text-justify">

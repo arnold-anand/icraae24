@@ -14,7 +14,8 @@ export default function Topics() {
             </div>
             <div className="m-5">
               <ul className="list-decimal space-y-5">
-                <li>Advances in Space Propulsion and Power Concepts</li>
+                <li>Advances in Space Propulsion</li>
+                <li>Electric Propulsion</li>
                 <li>Clean Combustion, Performance and Emission</li>
                 <li>Green Propellants</li>
                 <li>Cryogenics</li>
@@ -29,7 +30,7 @@ export default function Topics() {
               Experimental and Computational Aerodynamics
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-7">
+              <ul className="list-decimal space-y-4">
                 <li>Wind Tunnel Testing</li>
                 <li>Shock Waves</li>
                 <li>Hypersonic Aerodynamics</li>
@@ -37,6 +38,8 @@ export default function Topics() {
                 <li>Acoustics</li>
                 <li>Aeroelasticity</li>
                 <li>Fluid Structure Interaction</li>
+                <li>Flow Visualization</li>
+                <li>Boundary Layer Interaction</li>
               </ul>
             </div>
           </div>
@@ -51,8 +54,8 @@ export default function Topics() {
                 <li>Advanced Joining Methods</li>
                 <li>Material Charecterisation</li>
                 <li>3-D printing</li>
-                <li>Modelling and simulation technologies</li>
-                <li>Structural analysis</li>
+                <li>Modelling and Simulation Technologies</li>
+                <li>Structural Analysis</li>
               </ul>
             </div>
           </div>
@@ -75,7 +78,7 @@ export default function Topics() {
             Unmanned Aircraft Systems 
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-5">
+              <ul className="list-decimal space-y-4">
                 <li>Digital Aviation</li>
                 <li>Drone Technology</li>
                 <li>Anti Drone Technology</li>
@@ -83,7 +86,8 @@ export default function Topics() {
                 <li>Civil Aviation and Space Policies</li>
                 <li>Helicopter Technology</li>
                 <li>Aircraft Design</li>
-                <li>Launch Vehicle Systerms and Technologies</li>
+                <li>Autonomous Air Vehicles</li>
+                <li>Swarm Technologies</li>
               </ul>
             </div>
           </div>
@@ -92,14 +96,17 @@ export default function Topics() {
             Space Technology
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-7">
+              <ul className="list-decimal space-y-3">
                 <li>Space Dynamics and Interplanetary Trajectory</li>
-                <li>Defence and Security</li>
+                <li>Defence and Security Systems</li>
                 <li>Space Resource Utilization</li>
                 <li>Astrophysics</li>
                 <li>Lander Technology for Space</li>
                 <li>Orbital Mechanics</li>
-                <li>Rocket Theory and Design</li>
+                <li>Rocket Design</li>
+                <li>Space Debris</li>
+                <li>Satellite Collision Avoidance</li>
+                <li>Space Colonization</li>
               </ul>
             </div>
           </div>

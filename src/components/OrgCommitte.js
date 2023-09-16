@@ -16,7 +16,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-[#222] title-font font-medium">
-                    Dr. PAUL DHINAKARAN
+                    Dr. Paul Dhinakaran
                   </h2>
                   <p className="text-gray-500">Chancellor, KITS</p>
                 </div>
@@ -327,6 +327,36 @@ export default function () {
                 <div className="flex-grow">
                   <h2 className="text-[#222] title-font font-medium">
                   Dr. R. Ajith Raj
+                  </h2>
+                  <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-[#222] title-font font-medium">
+                  Mr. Sherbin Sam S
+                  </h2>
+                  <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-[#222] title-font font-medium">
+                  Ms. Sreemathi S
+                  </h2>
+                  <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
+                </div>
+              </div>
+            </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-[#222] title-font font-medium">
+                  Mrs. Rosy Subha Hannah
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
                 </div>

@@ -38,7 +38,6 @@ export default function Home() {
       minutes,
       seconds,
     };
-
   }
 
   // Update the countdown timer every second
@@ -67,10 +66,14 @@ export default function Home() {
           Aerospace Engineering
         </div>
         <div>
-          <a target="_blank" rel="noreferrer" href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx">
-        <button className="ml-5 text-xl font-bold border-2 border-solid border-white p-3 rounded-lg w-56 bg-white my-3 max-w-xl">
-          Register Now
-        </button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+          >
+            <button className="ml-5 text-xl font-bold border-2 border-solid border-white p-3 rounded-lg w-56 bg-white my-3 max-w-xl">
+              Register Now
+            </button>
           </a>
         </div>
       </div>
@@ -85,9 +88,13 @@ export default function Home() {
               height: "100%",
             }}
           >
-            <div className="text-6xl w-[40%] py-56">
+            <div className="text-6xl w-[40%] py-48">
               2<sup>nd</sup> International Conference on Recent Advances in
               Aerospace Engineering
+              <div className="text-lg pl-32 mt-10">
+                In Association with
+              </div>
+                <div className=" text-4xl mt-5">Aeronautical Society of India</div>
             </div>
             <div className="timer py-56">
               <div className="w-full text-white text-6xl flex-col items-center mr-10 space-y-20 max-w-[400px] p-3">
@@ -142,11 +149,15 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="">
-                <a rel="noreferrer" target="_blank" href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx">
-                <button className="w-full text-2xl p-5 border-2 border-solid border-white rounded-xl">
-                  Register Now
-                </button>
-                </a>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+                  >
+                    <button className="w-full text-2xl p-5 border-2 border-solid border-white rounded-xl">
+                      Register Now
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -178,10 +189,21 @@ export default function Home() {
             (UGC) in recognition of its academic excellence by the Ministry of
             Human Resources Development under section 3 of the UGC Act, 1956
             vide notification no 9-3-2000-U3 dated 23.6.2004 of the Government
-            of India. Accredited by NAAC, the institution offers a wide array of
-            Bachelors, Masters and Doctoral Degree programmes in various
-            branches of Engineering, Biotechnology, Food processing and
-            Agricultural Sciences.
+            of India. Accredited by NAAC with the highest grade A++, the
+            institution offers a wide array of Bachelors, Masters and Doctoral
+            Degree programmes in various branches of Engineering, Biotechnology,
+            Food processing and Agricultural Sciences. From a humble beginning
+            of 180 students, the institution has rapidly grown to 8000+ students
+            and 450+ faculty representing 18 academic divisions. <br />
+            <br /> In the three decades of service to higher education, Karunya
+            Institute of Technology and Sciences has made significant
+            progression in teaching learning, research and consultancy,
+            innovation and transfer of technology, community service and value
+            education. Translating the vision of the Founders into action, the
+            institution is currently engaged in finding solutions to human
+            problems in the four major areas such as Water, Food, Healthcare,
+            and Sustainable Energy through scientific and technological
+            interventions.
           </div>
         </div>
         <div className="lg:p-10">
@@ -197,7 +219,16 @@ export default function Home() {
             Intelligence & Machine Learning, Smart Manufacturing that enable
             them to understand physical laws and cruise through time and space
             being creative and innovative, thus opening up the limitless
-            opportunities in an endless space.
+            opportunities in an endless space. The students are trained in
+            aerospace design and analysis software and offered value-added
+            courses in Digital Manufacturing, Artificial Intelligence in
+            Aerospace manufacturing, Value Engineering etc., to keep them
+            abreast with the latest developments. Over the years the Division of
+            Aerospace Engineering has groomed 600+ engineers who have grown to
+            occupy strategic positions at research organizations like GTRE and
+            NAL, MNCs like Accenture, Capgemini, and Infosys, and in highly
+            reputed companies like Quest Global, Agnikul Cosmos, Boeing, Team
+            Indus etc., to name a few.
           </div>
         </div>
       </div>
