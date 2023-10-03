@@ -283,7 +283,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-[#222] title-font font-medium">
-                  Dr.T. Manikandan
+                  Dr. T. Manikandan
                   </h2>
                   <p class="text-gray-500">Nehru Institute of Technology, Coimbatore</p>
                 </div>
@@ -295,7 +295,7 @@ export default function AdvCommittee() {
                   <h2 class="text-[#222] title-font font-medium">
                   Dr. Rajat Gupta
                   </h2>
-                  <p class="text-gray-500">NIT,Silchar.</p>
+                  <p class="text-gray-500">NIT, Silchar</p>
                 </div>
               </div>
             </div>
@@ -303,7 +303,7 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-[#222] title-font font-medium">
-                  Dr. D.P. Sudhakar
+                  Dr. D. P. Sudhakar
                   </h2>
                   <p class="text-gray-500">Deputy Director, SRE, IPRC.ISRO</p>
                 </div>
