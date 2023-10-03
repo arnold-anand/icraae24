@@ -74,6 +74,26 @@ export default function AdvCommittee() {
                 </div>
               </div>
             </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Dr. Nishanth Pushparaj
+                  </h2>
+                  <p class="text-gray-500">Nottingham, UK</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Dr. Obed Samuelraj Isaac
+                  </h2>
+                  <p class="text-gray-500">Duke University,  NC, United States</p>
+                </div>
+              </div>
+            </div>
             {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
@@ -256,6 +276,36 @@ export default function AdvCommittee() {
                   Dr. Prem Kumar
                   </h2>
                   <p class="text-gray-500">Kumaraguru College of Technology</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Dr.T. Manikandan
+                  </h2>
+                  <p class="text-gray-500">Nehru Institute of Technology, Coimbatore</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Dr. Rajat Gupta
+                  </h2>
+                  <p class="text-gray-500">NIT,Silchar.</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Dr. D.P. Sudhakar
+                  </h2>
+                  <p class="text-gray-500">Deputy Director, SRE, IPRC.ISRO</p>
                 </div>
               </div>
             </div>
