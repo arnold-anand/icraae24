@@ -28,6 +28,37 @@ export default function AdvCommittee() {
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-[#222] title-font font-medium">
+                  Prof. Mohsen Sharifpur 
+                  </h2>
+                  <p class="text-gray-500">University of Pretoria, South Africa</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Prof. Josua Meyer
+                  </h2>
+                  <p class="text-gray-500">Stellenbosch University, South Africa</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
+                  Prof. Alon Gany 
+                  </h2>
+                  <p class="text-gray-500">Technion Israel Institute of Technology, Israel</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-[#222] title-font font-medium">
                     Dr. Chithirai Pon Selvan
                   </h2>
                   <p class="text-gray-500">Curtain University , Dubai</p>
@@ -94,28 +125,6 @@ export default function AdvCommittee() {
                 </div>
               </div>
             </div>
-            {/* <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <div class="flex-grow">
-                  <h2 class="text-[#222] title-font font-medium">
-                    Dr.Joseph Lefkowitz
-                  </h2>
-                  <p class="text-gray-500">
-                    Technion Israel Institute of Technology and Science
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <div class="flex-grow">
-                  <h2 class="text-[#222] title-font font-medium">
-                    Dr.Chan Wai Lee
-                  </h2>
-                  <p class="text-gray-500"> NTU, Singaporer</p>
-                </div>
-              </div>
-            </div> */}
           </div>
         </div>
       </section>
