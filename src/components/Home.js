@@ -60,7 +60,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
           height: "100vh",
         }}
-      >
+        >
         <div className="text-white tracking-widest w-56 ml-3 p-3 text-3xl font-bold md:w-48 md:text-5xl">
           2<sup>nd</sup> International Conference on Recent Advancements in
           Aerospace Engineering
