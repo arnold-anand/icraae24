@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import Topics from "./components/Topics";
 import OrgCommitte from "./components/OrgCommitte";
@@ -14,7 +14,7 @@ import Downloads from "./components/Downloads";
 
 function App() {
   return (
-    <Router>
+    <HashRouter>
       <>
         <Navbar />
         <Routes>
@@ -28,7 +28,7 @@ function App() {
         </Routes>
         <Footer />
       </>
-    </Router>
+    </HashRouter>
   );
 }
 
