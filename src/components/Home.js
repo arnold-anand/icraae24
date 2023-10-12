@@ -55,7 +55,7 @@ export default function Home() {
       <div
         className="lg:hidden"
         style={{
-          backgroundImage: "url(/sm-rocket-bg-min.jpg)",
+          backgroundImage: "url(./sm-rocket-bg-min.jpg)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100vh",
@@ -82,7 +82,7 @@ export default function Home() {
           <div
             className="h-screen text-white px-10 flex justify-between"
             style={{
-              backgroundImage: "url(/rocket.webp)",
+              backgroundImage: "url(./rocket.webp)",
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
               height: "100%",
@@ -166,7 +166,7 @@ export default function Home() {
       </div>
       <div
         style={{
-          backgroundImage: "url(/stars.webp)",
+          backgroundImage: "url(./stars.webp)",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           height: "100%",
