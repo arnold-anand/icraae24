@@ -99,11 +99,6 @@ export default function Navbar() {
                         Conference Topics
                       </Link>
                     </div>
-                    <div>
-                      <Link onClick={toggleMenu} to="/downloads">
-                        Downloads
-                      </Link>
-                    </div>
                   </div>
                 )}
               </div>
@@ -149,6 +144,11 @@ export default function Navbar() {
                   Contact Us
                 </Link>
               </div>
+              <div>
+                      <Link onClick={toggleMenu} to="/downloads">
+                        Downloads
+                      </Link>
+                    </div>
             </div>
           </Menu>
         </div>
@@ -195,9 +195,7 @@ export default function Navbar() {
                       <Link onClick={toggleAboutMenu} to="/conference-topics">
                         Conference Topics
                       </Link>
-                      <Link onClick={toggleAboutMenu} to="/downloads">
-                        Downloads
-                      </Link>
+                      
                     </div>
                   )}
                 </div>
@@ -241,6 +239,9 @@ export default function Navbar() {
                 </div>
                 <Link to="/contact-us">
                   <li>Contact Us</li>
+                </Link>
+                <Link onClick={toggleAboutMenu} to="/downloads">
+                        Downloads
                 </Link>
               </ul>
             </div>

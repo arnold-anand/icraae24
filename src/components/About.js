@@ -66,8 +66,8 @@ export default function About() {
         </table>
       </div>
       <div className="mt-3 lg:px-10">
-        <h1 className="text-2xl font-bold">About the Conference</h1>
-        <p className="text-md lg:text-lg py-4 text-justify">
+        <h1 className="text-2xl font-bold text-blue-900">About the Conference</h1>
+        <p className="text-md lg:text-lg py-4 text-justify text-blue-800">
           The second International Conference on Recent Advances in Aerospace
           Engineering aims to bring together leading academic scientists,
           researchers and research scholars to exchange and share their
@@ -98,12 +98,7 @@ export default function About() {
           conference. Please refer to the Submission Guidelines before
           submitting your paper.
         </p>
-        <div>
-          <h1 className="text-2xl font-bold"> Publishing Partner</h1>
-          <p className="text-md lg:text-lg py-4 text-justify">
-            High Temperature Corrosion of Materials
-          </p>
-        </div>
+        
         <div className="flex flex-col">
           <h1 className="text-2xl font-bold">Registration Fees</h1>
           <table className="my-4 w-full text-sm max-w-md md:text-md lg:text-lg">
