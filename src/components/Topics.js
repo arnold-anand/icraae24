@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Topics() {
   return (
-    <div className="">
+    <div className="text-blue-800 font-poppins">
       <div
 
-        className="bg-slate-100 text-[#222]"
+        className="bg-slate-100"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-0">
         <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
@@ -13,7 +13,7 @@ export default function Topics() {
               Propulsion & Heat transfer Technology
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-5">
+              <ul className="list-decimal space-y-4">
                 <li>Advances in Space Propulsion</li>
                 <li>Electric Propulsion</li>
                 <li>Clean Combustion, Performance and Emission</li>
@@ -91,7 +91,7 @@ export default function Topics() {
               </ul>
             </div>
           </div>
-          <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
+          <div className="p-3 border border-gray-400 m-5 rounded-md h-[500px] w-72">
             <div className="text-md font-bold text-center">
             Space Technology
             </div>

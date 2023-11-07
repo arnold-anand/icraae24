@@ -3,11 +3,11 @@ import React from "react";
 export default function About() {
   return (
     <div
-      className="p-6 text-[#222] bg-slate-100"
+      className="p-6 text-[#222] bg-slate-100 font-poppins"
     >
       <div className="flex justify-center items-center flex-col">
-        <h1 className="text-2xl font-bold pb-6 ">Important Dates</h1>
-        <table className="border-spacing-5 border-2 border-slate-500 text-sm">
+        <h1 className="text-2xl font-bold pb-6 text-blue-900">Important Dates</h1>
+        <table className="border-spacing-5 border-2 border-slate-500 text-sm text-blue-800">
           <tr className="">
             <td className="p-5 border border-slate-700">
               Abstract Submission Deadline
@@ -78,8 +78,8 @@ export default function About() {
           encountered and solutions adopted in the fields of Aerospace.
         </p>
 
-        <h1 className="text-2xl font-bold">Objectives of the Conference</h1>
-        <p className="text-md lg:text-lg py-4 text-justify">
+        <h1 className="text-2xl font-bold text-blue-900">Objectives of the Conference</h1>
+        <p className="text-md lg:text-lg py-4 text-justify text-blue-800">
           Prospective authors are kindly encouraged to contribute to and help
           shape the conference through submissions of their research abstracts
           and papers. Also, high quality research contributions describing
@@ -88,20 +88,20 @@ export default function About() {
           are cordially invited for presentation at the conference.
         </p>
 
-        <h1 className="text-2xl font-bold">Call for Papers</h1>
-        <p className="text-md lg:text-lg py-4 text-justify">
+        <h1 className="text-2xl font-bold text-blue-900">Call for Papers</h1>
+        <p className="text-md lg:text-lg py-4 text-justify text-blue-800">
           Academicians, researchers and industry professionals are being invited to submit their original research papers previously unpublished, not currently under review by another conference or journal. All submission will be subjected to at least two blind reviews. Acceptance wil be based entirely on quality, relevance and originality. The authors can send their Abstracts/ Full paper(s) online. The selection for oral presentation will be strictly as per the feedback from the technical review committee. All selected peer-reviewed research/ review papers presented in the conference will be recommended for publication through our supporting publishing partners.
         </p>
-        <h1 className="text-2xl font-bold">Guidelines for Authors</h1>
-        <p className="text-md lg:text-lg py-4 text-justify">
+        <h1 className="text-2xl font-bold text-blue-900">Guidelines for Authors</h1>
+        <p className="text-md lg:text-lg py-4 text-justify text-blue-800">
           Authors should ensure that your submission meets the scope of the
           conference. Please refer to the Submission Guidelines before
           submitting your paper.
         </p>
         
         <div className="flex flex-col">
-          <h1 className="text-2xl font-bold">Registration Fees</h1>
-          <table className="my-4 w-full text-sm max-w-md md:text-md lg:text-lg">
+          <h1 className="text-2xl font-bold text-blue-900">Registration Fees</h1>
+          <table className="text-blue-800 my-4 w-full text-sm max-w-md md:text-md lg:text-lg">
             <tr className="border border-gray-400">
               <th className="p-2">S.No</th>
               <th className="p-2">Category</th>
@@ -138,7 +138,7 @@ export default function About() {
           </table>
         </div>
         <div>
-          <h1 className="text-xl font-bold lg:text-2xl">
+          <h1 className="text-xl font-bold text-blue-900 lg:text-2xl">
             Glimpses of 1 <sup>st</sup> International Conference ICRAAE
           </h1>
           <div className=" py-6 grid md:grid-cols-2 lg:grid-cols-4 gap-5 place-items-center">

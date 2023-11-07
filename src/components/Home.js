@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Mobilelanding from "./Mobilelanding";
 
 export default function Home() {
   // State variable to store the remaining time
@@ -52,7 +53,7 @@ export default function Home() {
 
   return (
     <>
-      <div
+      {/* <div
         className="lg:hidden"
         style={{
           backgroundImage: "url(./sm-rocket-bg-min.jpg)",
@@ -76,6 +77,9 @@ export default function Home() {
             </button>
           </a>
         </div>
+      </div> */}
+      <div className="lg:hidden">
+        <Mobilelanding/>
       </div>
       <div className="hidden lg:block">
         <div className="-mt-20">
@@ -165,16 +169,11 @@ export default function Home() {
         </div>
       </div>
       <div
-        style={{
-          backgroundImage: "url(./stars.webp)",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-          height: "100%",
-        }}
-        className="p-6 bg-[#020411] text-gray-300"
+        
+        className="p-6 text-blue-800 font-poppins"
       >
         <div className="lg:p-10">
-          <h1 className="text-3xl my-5">
+          <h1 className="text-3xl my-5 font-semibold text-blue-900">
             Karunya Institute of Technology & Sciences
           </h1>
           <div className="text-justify">
@@ -207,7 +206,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:p-10">
-          <h1 className="text-3xl my-5">Division of Aerospace Engineering</h1>
+          <h1 className="text-3xl my-5 text-blue-900 font-semibold">Division of Aerospace Engineering</h1>
           <div className="text-justify">
             The Division of Aerospace Engineering at Karunya Institute of
             Technology and Sciences (KITS) was launched in the year 2009 with

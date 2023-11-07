@@ -2,12 +2,12 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="text-[#222] bg-slate-100"
+    <div className="text-blue-900 bg-slate-100"
     >
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
               CHIEF PATRONS
             </h1>
           </div>
@@ -15,7 +15,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. Paul Dhinakaran
                   </h2>
                   <p className="text-gray-500">Chancellor, KITS</p>
@@ -25,7 +25,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. Samuel Dhinakaran
                   </h2>
                   <p className="text-gray-500">Trustee, KITS</p>
@@ -39,7 +39,7 @@ export default function () {
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
               PATRONS
             </h1>
           </div>
@@ -47,7 +47,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. G. Prince Arulraj
                   </h2>
                   <p className="text-gray-500">Vice-Chancellor, KITS</p>
@@ -57,7 +57,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. E. J. James
                   </h2>
                   <p className="text-gray-500">
@@ -69,7 +69,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. Ridling Margaret Waller
                   </h2>
                   <p className="text-gray-500">
@@ -81,7 +81,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. R. Elijah Blessing
                   </h2>
                   <p className="text-gray-500">Registrar, KITS</p>
@@ -91,7 +91,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. D. Nirmal
                   </h2>
                   <p className="text-gray-500">
@@ -106,7 +106,7 @@ export default function () {
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
               CO-PATRONS
             </h1>
           </div>
@@ -114,7 +114,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. K.R.S. Krishnan
                   </h2>
                   <p className="text-gray-500">
@@ -126,7 +126,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. Madhu Ganesh
                   </h2>
                   <p className="text-gray-500">
@@ -138,7 +138,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. D. Tensing
                   </h2>
                   <p className="text-gray-500">Director-IQAC, KITS</p>
@@ -148,7 +148,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. S. J. Vijay
                   </h2>
                   <p className="text-gray-500">
@@ -160,7 +160,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Dr. S. Albones Raj
                   </h2>
                   <p className="text-gray-500">Director Students Affairs, KITS</p>
@@ -170,7 +170,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                     Shri. CA. A. Joseph Amulraj
                   </h2>
                   <p className="text-gray-500">Finance Officer, KITS</p>
@@ -184,7 +184,7 @@ export default function () {
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
             CONVENOR
             </h1>
           </div>
@@ -192,7 +192,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. Jims John Wessley
                   </h2>
                   <p className="text-gray-500">
@@ -207,7 +207,7 @@ export default function () {
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
             ORGANIZING SECRETARY
             </h1>
           </div>
@@ -215,7 +215,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. Aldin Justin Sundararaj
                   </h2>
                   <p className="text-gray-500">
@@ -230,7 +230,7 @@ export default function () {
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
             MEMBER SECRETARIES
             </h1>
           </div>
@@ -238,7 +238,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. S. Venkatachalam
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -248,7 +248,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. K. Anton Savio Lewise
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -261,7 +261,7 @@ export default function () {
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-[#222]">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900">
             MEMBER COORDINATORS
             </h1>
           </div>
@@ -269,7 +269,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. D. Robinson Smart
                   </h2>
                   <p className="text-gray-500">
@@ -281,7 +281,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. Prawin Angel Michael
                   </h2>
                   <p className="text-gray-500">
@@ -293,7 +293,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Mrs. Gayathri G.
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -303,7 +303,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. Sushanlal Babu
                   </h2>
                   <p className="text-gray-500">
@@ -315,7 +315,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Mr. Prawin L.
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -325,7 +325,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Dr. R. Ajith Raj
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -335,7 +335,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Mr. Sherbin Sam S
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -345,7 +345,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Ms. Sreemathi S
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
@@ -355,7 +355,7 @@ export default function () {
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
-                  <h2 className="text-[#222] title-font font-medium">
+                  <h2 className="text-blue-900 title-font font-medium">
                   Mrs. Rosy Subha Hannah
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
