@@ -26,7 +26,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0">
+    <div className="sticky top-0 font-poppins">
       <div className="lg:hidden">
         <div className="left-0 w-full bg-[#04040c] text-white">
           <div className="p-5">
@@ -243,6 +243,17 @@ export default function Navbar() {
                 <Link onClick={toggleAboutMenu} to="/downloads">
                         Downloads
                 </Link>
+                <div className="">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+                  >
+                    <button className="">
+                      Register Now
+                    </button>
+                  </a>
+                </div>
               </ul>
             </div>
           </div>

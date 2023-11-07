@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Mobilelanding from "./Mobilelanding";
+import Lglanding from "./Lglanding";
 
 export default function Home() {
   // State variable to store the remaining time
@@ -79,9 +80,12 @@ export default function Home() {
         </div>
       </div> */}
       <div className="lg:hidden">
-        <Mobilelanding/>
+        <Mobilelanding />
       </div>
       <div className="hidden lg:block">
+          <Lglanding></Lglanding>
+      </div>
+      {/* <div className="hidden lg:block">
         <div className="-mt-20">
           <div
             className="h-screen text-white px-10 flex justify-between"
@@ -95,10 +99,10 @@ export default function Home() {
             <div className="text-6xl w-[40%] py-48">
               2<sup>nd</sup> International Conference on Recent Advances in
               Aerospace Engineering
-              <div className="text-lg pl-32 mt-10">
-                In Association with
+              <div className="text-lg pl-32 mt-10">In Association with</div>
+              <div className=" text-4xl mt-5">
+                Aeronautical Society of India
               </div>
-                <div className=" text-4xl mt-5">Aeronautical Society of India</div>
             </div>
             <div className="timer py-56">
               <div className="w-full text-white text-6xl flex-col items-center mr-10 space-y-20 max-w-[400px] p-3">
@@ -148,9 +152,7 @@ export default function Home() {
                       d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5"
                     />
                   </svg>
-                  <div>
-                    March 29 and 30 2024
-                  </div>
+                  <div>March 29 and 30 2024</div>
                 </div>
                 <div className="">
                   <a
@@ -167,11 +169,59 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div> */}
+
+      {/* Timer Section */}
+      <div className="flex items-center justify-center">
+        <div className="timer py-5 font-poppins text-blue-900">
+          <div className="text-6xl flex-col items-center space-y-10">
+            <div className="flex items-center justify-center">
+              <div className="flex flex-col items-center justify-center space-y-6">
+                <div className="hrs text-2xl md:text-4xl lg:text-6xl">
+                  {timeLeft.days.toString().padStart(2, "0")}
+                </div>
+                <div className="text-xs md:text-base lg:text-xl">Days</div>
+              </div>
+              <div className="mb-11 md:mb-14 p-2 text-2xl md:text-3xl">:</div>
+              <div className="flex flex-col items-center justify-center space-y-6">
+                <div className="mins text-2xl md:text-4xl lg:text-6xl">
+                  {timeLeft.hours.toString().padStart(2, "0")}
+                </div>
+                <div className="text-xs md:text-base lg:text-xl">Hours</div>
+              </div>
+
+              <div className="mb-11 md:mb-14 p-2 text-2xl md:text-3xl">:</div>
+              <div className="flex flex-col items-center justify-center space-y-6">
+                <div className="seconds text-2xl md:text-4xl lg:text-6xl">
+                  {timeLeft.minutes.toString().padStart(2, "0")}
+                </div>
+                <div className="text-xs md:text-base lg:text-xl">Minutes</div>
+              </div>
+
+              <div className="mb-11 md:mb-14 p-2 text-2xl md:text-3xl">:</div>
+              <div className="flex flex-col items-center justify-center space-y-6">
+                <div className="seconds text-2xl md:text-4xl lg:text-6xl">
+                  {timeLeft.seconds.toString().padStart(2, "0")}
+                </div>
+                <div className="text-xs md:text-base lg:text-xl">Seconds</div>
+              </div>
+            </div>
+
+            <div className="">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+              >
+                <button className="w-full text-xl p-2 border-2 border-solid border-black rounded-lg">
+                  Register Now
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
-      <div
-        
-        className="p-6 text-blue-800 font-poppins"
-      >
+      <div className="p-6 text-blue-800 font-poppins">
         <div className="lg:p-10">
           <h1 className="text-3xl my-5 font-semibold text-blue-900">
             Karunya Institute of Technology & Sciences
@@ -206,7 +256,9 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:p-10">
-          <h1 className="text-3xl my-5 text-blue-900 font-semibold">Division of Aerospace Engineering</h1>
+          <h1 className="text-3xl my-5 text-blue-900 font-semibold">
+            Division of Aerospace Engineering
+          </h1>
           <div className="text-justify">
             The Division of Aerospace Engineering at Karunya Institute of
             Technology and Sciences (KITS) was launched in the year 2009 with
