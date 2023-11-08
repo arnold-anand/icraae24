@@ -8,7 +8,7 @@ export default function Home() {
 
   // Calculate the time remaining until March 29, 2023, 9:00 PM
   function calculateTimeLeft() {
-    const targetDate = new Date("2024-03-29T10:00:00Z");
+    const targetDate = new Date("2024-04-19T10:00:00Z");
     targetDate.setHours(targetDate.getHours() - 5); // Add 5 hours for IST
     targetDate.setMinutes(targetDate.getMinutes() - 30); // Add 30 minutes for IST
 
@@ -82,7 +82,7 @@ export default function Home() {
       <div className="lg:hidden">
         <Mobilelanding />
       </div>
-      <div className="hidden lg:block">
+      <div className="hidden lg:block bg-[#f3f2ed]">
           <Lglanding></Lglanding>
       </div>
       {/* <div className="hidden lg:block">
@@ -172,7 +172,7 @@ export default function Home() {
       </div> */}
 
       {/* Timer Section */}
-      <div className="flex items-center justify-center">
+      <div className="flex items-center justify-center bg-[#f3f2ed]">
         <div className="timer py-5 font-poppins text-blue-900">
           <div className="text-6xl flex-col items-center space-y-10">
             <div className="flex items-center justify-center">
@@ -221,7 +221,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-6 text-blue-800 font-poppins">
+      <div className="p-6 text-blue-800 font-poppins bg-[#f3f2ed]">
         <div className="lg:p-10">
           <h1 className="text-3xl my-5 font-semibold text-blue-900">
             Karunya Institute of Technology & Sciences

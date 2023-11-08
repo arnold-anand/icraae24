@@ -26,14 +26,14 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky top-0 font-poppins">
+    <div className="sticky top-0 font-poppins shadow-sm">
       <div className="lg:hidden">
-        <div className="left-0 w-full bg-[#04040c] text-white">
+        <div className="left-0 w-full bg-[#f3f3f3] text-blue-950">
           <div className="p-5">
             <div className="flex justify-between items-center">
               <img className="w-16" src="aesi-logo.png" alt="" />
               <img className="w-20 p-2" src="karunya-logo-white.png" alt="" />
-              <div className="text-xl">ICRAAE</div>
+              <div className="text-xl text-blue-800 font-semibold">ICRAAE</div>
               <div className="text-white cursor-pointer" onClick={toggleMenu}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -59,7 +59,7 @@ export default function Navbar() {
             customBurgerIcon={false}
             customCrossIcon={false}
           >
-            <div className="h-screen flex flex-col space-y-5 md:space-y-10 p-4 bg-[#020411]">
+            <div className="h-screen flex flex-col space-y-5 md:space-y-10 p-4 bg-[#f3f3f3]">
               <div>
                 <Link to="/" onClick={toggleMenu}>
                   Home
@@ -153,13 +153,13 @@ export default function Navbar() {
           </Menu>
         </div>
       </div>
-      <div className="hidden lg:block">
-        <header className="sticky top-0 text-white w-screen px-10 bg-[#04040c] z-10">
+      <div className="hidden lg:block font-poppins shadow-sm">
+        <header className="sticky top-0 text-blue-800 w-screen px-10 bg-[#f3f3f3] z-10">
           <div className="flex justify-between items-center">
             <div className="flex justify-center items-center">
               <img className="w-20 p-2" src="aesi-logo.png" alt="" />
-              <img className="w-20 p-3" src="karunya-logo-white.png" alt="" />
-              <div className="text-3xl px-3">ICRAAE</div>
+              <img className="w-24 p-3" src="KITS-EMBLEM.png" alt="" />
+              <div className="text-3xl px-3 font-semibold">ICRAAE</div>
             </div>
             <div>
               <ul className="flex space-x-5">

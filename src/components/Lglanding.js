@@ -6,8 +6,8 @@ export default function Lglanding() {
     setIsNextClick(!isNextClicked);
   };
   return (
-    <div>
-      <div className="flex items-center justify-center p-3">
+    <div className="bg-[#f3f2ed]">
+      <div className="flex items-center justify-center p-1">
         <div onClick={toggleImages} className="p-3 h-full">
           <button>
             <svg
@@ -33,7 +33,7 @@ export default function Lglanding() {
             </div>
           ) : (
             <div>
-              <img className="rounded-md" src="lgLanding1.png" alt="" />
+              <img className="rounded-md" src="icraae24-banner.png" alt="" />
             </div>
           )}
         </div>
