@@ -33,7 +33,7 @@ export default function Lglanding() {
             </div>
           ) : (
             <div>
-              <img className="rounded-md" src="icraae24-banner.png" alt="" />
+              <img className="rounded-md" src="icraae24-banner-compressed.png" alt="" />
             </div>
           )}
         </div>
