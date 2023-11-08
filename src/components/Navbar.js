@@ -34,7 +34,7 @@ export default function Navbar() {
               <img className="w-16" src="aesi-logo.png" alt="" />
               <img className="w-20 p-2" src="KITS-EMBLEM.png" alt="" />
               <div className="text-xl text-blue-800 font-semibold">ICRAAE</div>
-              <div className="text-white cursor-pointer" onClick={toggleMenu}>
+              <div className="text-blue-800 cursor-pointer" onClick={toggleMenu}>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

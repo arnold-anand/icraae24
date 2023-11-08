@@ -1,7 +1,7 @@
 import React from "react";
 export default function Contact() {
   return (
-    <div className="text-blue-900 bg-slate-100 h-screen ">
+    <div className="text-blue-900 bg-[#f3f2ed] h-screen ">
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-3 mx-auto">
           <div className="flex flex-col text-center w-full mb-5">

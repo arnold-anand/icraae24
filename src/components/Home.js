@@ -174,7 +174,7 @@ export default function Home() {
       {/* Timer Section */}
       <div className="flex items-center justify-center bg-[#f3f2ed]">
         <div className="timer py-5 font-poppins text-blue-900">
-          <div className="text-6xl flex-col items-center space-y-10">
+          <div className="text-6xl flex-col items-center space-y-5">
             <div className="flex items-center justify-center">
               <div className="flex flex-col items-center justify-center space-y-6">
                 <div className="hrs text-2xl md:text-4xl lg:text-6xl">

@@ -3,7 +3,7 @@ import React from "react";
 export default function Downloads() {
   return (
     <div
-    className="bg-slate-100"
+    className="bg-[#f3f2ed]"
     >
       <div className="grid place-items-center h-screen -mt-20">
         <div className="border border-black w-36 h-36 lg:w-48 lg:h-36 rounded-lg">
