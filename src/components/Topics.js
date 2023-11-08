@@ -5,7 +5,7 @@ export default function Topics() {
     <div className="text-blue-800 font-poppins">
       <div
 
-        className="bg-slate-100"
+        className="bg-[#f3f2ed]"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-0">
         <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">

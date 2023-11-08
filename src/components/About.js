@@ -2,7 +2,7 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="p-6 text-[#222] bg-[#f5f5f5] font-poppins">
+    <div className="p-6 text-[#222] bg-[#f3f2ed] font-poppins">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-2xl font-bold pb-6 text-blue-900">
           Important Dates

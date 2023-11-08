@@ -28,11 +28,11 @@ export default function Navbar() {
   return (
     <div className="sticky top-0 font-poppins shadow-sm">
       <div className="lg:hidden">
-        <div className="left-0 w-full bg-[#f3f3f3] text-blue-950">
+        <div className="left-0 w-full bg-[#f3f2ed] text-blue-950">
           <div className="p-5">
             <div className="flex justify-between items-center">
               <img className="w-16" src="aesi-logo.png" alt="" />
-              <img className="w-20 p-2" src="karunya-logo-white.png" alt="" />
+              <img className="w-20 p-2" src="KITS-EMBLEM.png" alt="" />
               <div className="text-xl text-blue-800 font-semibold">ICRAAE</div>
               <div className="text-white cursor-pointer" onClick={toggleMenu}>
                 <svg
@@ -59,7 +59,7 @@ export default function Navbar() {
             customBurgerIcon={false}
             customCrossIcon={false}
           >
-            <div className="h-screen flex flex-col space-y-5 md:space-y-10 p-4 bg-[#f3f3f3]">
+            <div className="h-screen flex flex-col space-y-5 md:space-y-10 p-4 bg-[#f3f2ed]">
               <div>
                 <Link to="/" onClick={toggleMenu}>
                   Home
@@ -154,7 +154,7 @@ export default function Navbar() {
         </div>
       </div>
       <div className="hidden lg:block font-poppins shadow-sm">
-        <header className="sticky top-0 text-blue-800 w-screen px-10 bg-[#f3f3f3] z-10">
+        <header className="sticky top-0 text-blue-800 w-screen px-10 bg-[#f3f2ed] z-10">
           <div className="flex justify-between items-center">
             <div className="flex justify-center items-center">
               <img className="w-20 p-2" src="aesi-logo.png" alt="" />
@@ -162,7 +162,7 @@ export default function Navbar() {
               <div className="text-3xl px-3 font-semibold">ICRAAE</div>
             </div>
             <div>
-              <ul className="flex space-x-5">
+              <ul className="flex space-x-5 items-center">
                 <Link to="/">
                   <li>Home</li>
                 </Link>
@@ -188,14 +188,13 @@ export default function Navbar() {
                     </svg>
                   </span>
                   {aboutMenuOpen && (
-                    <div className="absolute flex flex-col space-y-5 w-max p-5 left-0 bg-[#04040c] mt-1 rounded-xl">
+                    <div className="absolute flex flex-col space-y-5 w-max p-5 left-0 bg-[#f3f2ed] mt-1 rounded-xl">
                       <Link onClick={toggleAboutMenu} to="/about-conference">
                         About Conference
                       </Link>
                       <Link onClick={toggleAboutMenu} to="/conference-topics">
                         Conference Topics
                       </Link>
-                      
                     </div>
                   )}
                 </div>
@@ -221,7 +220,7 @@ export default function Navbar() {
                     </svg>
                   </span>
                   {committeeMenuOpen && (
-                    <div className="ease-in duration-500 absolute left-0 space-y-5 p-5 w-max flex flex-col rounded-xl bg-[#04040c] mt-1">
+                    <div className="ease-in duration-500 absolute left-0 space-y-5 p-5 w-max flex flex-col rounded-xl bg-[#f3f2ed] mt-1">
                       <Link
                         onClick={toggleCommitteeMenu}
                         to="/organising-committee"
@@ -249,9 +248,11 @@ export default function Navbar() {
                     target="_blank"
                     href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
                   >
-                    <button className="">
+                    <div className="p-2 ">
+                    <button className="bg-[#fc8019] p-2 rounded-md text-sm text-white font-bold">
                       Register Now
                     </button>
+                    </div>
                   </a>
                 </div>
               </ul>

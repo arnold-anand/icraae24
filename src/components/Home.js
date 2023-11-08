@@ -223,7 +223,7 @@ export default function Home() {
       </div>
       <div className="p-6 text-blue-800 font-poppins bg-[#f3f2ed]">
         <div className="lg:p-10">
-          <h1 className="text-3xl my-5 font-semibold text-blue-900">
+          <h1 className="text-2xl my-5 font-semibold text-blue-900">
             Karunya Institute of Technology & Sciences
           </h1>
           <div className="text-justify">
@@ -256,7 +256,7 @@ export default function Home() {
           </div>
         </div>
         <div className="lg:p-10">
-          <h1 className="text-3xl my-5 text-blue-900 font-semibold">
+          <h1 className="text-2xl my-5 text-blue-900 font-semibold">
             Division of Aerospace Engineering
           </h1>
           <div className="text-justify">

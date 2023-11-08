@@ -4,7 +4,7 @@ export default function AdvCommittee() {
   return (
     <div
 
-      className=" flex flex-col justify-center items-center p-6 text-blue-900 bg-slate-100"
+      className=" flex flex-col justify-center items-center p-6 text-blue-900 bg-[#f3f2ed]"
     >
       <section class="text-gray-500 body-font">
         <div class="container px-5 py-10 mx-auto">
@@ -21,6 +21,26 @@ export default function AdvCommittee() {
                     Dr. Erick C. Jones
                   </h2>
                   <p class="text-gray-500">University of Nevada, Reno , USA</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                    Dr. Gopalan Jagadeesh
+                  </h2>
+                  <p class="text-gray-500">Aerospace Dept, IISc Bangalore</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                  Dr. Mohd Rafie Johan
+                  </h2>
+                  <p class="text-gray-500">University of Malaya, Malaysia</p>
                 </div>
               </div>
             </div>
@@ -136,13 +156,64 @@ export default function AdvCommittee() {
             </h1>
           </div>
           <div class="flex flex-wrap -m-2">
+
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
                   <h2 class="text-blue-900 title-font font-medium">
-                  Dr. C. Senthilkumar 
+                  Dr. P.A Ramakrishna
                   </h2>
-                  <p class="text-gray-500">Professor, MIT, Chennai</p>
+                  <p class="text-gray-500">IIT-Madras</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                  Dr. A Sameen
+                  </h2>
+                  <p class="text-gray-500">IIT-Madras</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                  Dr. P.V. Venkitakrishnan
+                  </h2>
+                  <p class="text-gray-500">IIT-Madras</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                  Dr. M. Deepu
+                  </h2>
+                  <p class="text-gray-500">IIST-Trivandrum</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                  Dr. V. Ashok
+                  </h2>
+                  <p class="text-gray-500">VSSC, ISRO</p>
+                </div>
+              </div>
+            </div>
+            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
+                <div class="flex-grow">
+                  <h2 class="text-blue-900 title-font font-medium">
+                  Dr. Subhash Chander
+                  </h2>
+                  <p class="text-gray-500">DGRE, DRDO</p>
                 </div>
               </div>
             </div>
@@ -288,16 +359,7 @@ export default function AdvCommittee() {
                 </div>
               </div>
             </div>
-            <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
-                <div class="flex-grow">
-                  <h2 class="text-blue-900 title-font font-medium">
-                  Dr. Prem Kumar
-                  </h2>
-                  <p class="text-gray-500">Kumaraguru College of Technology</p>
-                </div>
-              </div>
-            </div>
+          
             <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div class="h-full flex items-center border-gray-800 border p-4 rounded-lg">
                 <div class="flex-grow">
@@ -324,7 +386,7 @@ export default function AdvCommittee() {
                   <h2 class="text-blue-900 title-font font-medium">
                   Dr. D. P. Sudhakar
                   </h2>
-                  <p class="text-gray-500">Deputy Director, SRE, IPRC.ISRO</p>
+                  <p class="text-gray-500">SRE, IPRC, ISRO</p>
                 </div>
               </div>
             </div>

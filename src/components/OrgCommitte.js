@@ -2,12 +2,12 @@ import React from "react";
 
 export default function () {
   return (
-    <div className="text-blue-900 bg-slate-100 font-poppins"
+    <div className="text-blue-900 bg-[#f3f2ed] font-poppins"
     >
       <section className="text-gray-500 body-font">
         <div className="container px-5 py-10 mx-auto">
           <div className="flex flex-col text-center w-full mb-10 ">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-blue-900 font-semibold">
+            <h1 className="sm:text-3xl text-2xl title-font mb-4 text-blue-900 font-semibold">
               CHIEF PATRONS
             </h1>
           </div>
