@@ -172,7 +172,7 @@ export default function Home() {
       </div> */}
 
       {/* Timer Section */}
-      <div className="flex items-center justify-center bg-[#f3f2ed]">
+      <div className="overscroll-contain flex items-center justify-center bg-[#f3f2ed]">
         <div className="timer py-5 font-poppins text-blue-900">
           <div className="text-6xl flex-col items-center space-y-5">
             <div className="flex items-center justify-center">

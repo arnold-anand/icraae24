@@ -70,6 +70,9 @@ export default function Publication() {
               <span className="font-semibold">Ethical Considerations: </span>Provide information on ethics, conflicts
               of interest, and funding sources if any.
             </li>
+            <li>
+            Articles with more than 15% similarity will be rejected.
+            </li>
           </ul>
         </div>
         <div className="my-10 italic">Note: After initial screening, based on the suggestions from our Editorial team the publishing journal will be decided and details will be communicated to the authors by mail</div>

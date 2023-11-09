@@ -253,7 +253,7 @@ export default function Navbar() {
                 <Link to="/contact-us">
                   <li>Contact Us</li>
                 </Link>
-                <Link onClick={toggleAboutMenu} to="/downloads">
+                <Link onClick={toggleMenu} to="/downloads">
                   Downloads
                 </Link>
                 <div className="">
