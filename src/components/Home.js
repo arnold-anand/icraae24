@@ -213,7 +213,7 @@ export default function Home() {
                 target="_blank"
                 href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
               >
-                <button className="w-full text-xl p-2 border-2 border-solid border-black rounded-lg">
+                <button className=" bg-[#fc8019] w-full text-xl p-2 border-2 border-solid text-white rounded-lg font-bold">
                   Register Now
                 </button>
               </a>
@@ -226,7 +226,7 @@ export default function Home() {
           <h1 className="text-2xl my-5 font-semibold text-blue-900">
             Karunya Institute of Technology & Sciences
           </h1>
-          <div className="text-justify">
+          <div className="text-justify text-md lg:text-lg">
             Karunya Institute of Technology and Sciences was founded with the
             noble vision to raise professionals and leaders of high academic
             caliber and unblemished character, nurtured with a strong motivation
@@ -259,7 +259,7 @@ export default function Home() {
           <h1 className="text-2xl my-5 text-blue-900 font-semibold">
             Division of Aerospace Engineering
           </h1>
-          <div className="text-justify">
+          <div className="text-justify text-md lg:text-lg">
             The Division of Aerospace Engineering at Karunya Institute of
             Technology and Sciences (KITS) was launched in the year 2009 with
             the primary objective of producing Aerospace Engineers to meet the

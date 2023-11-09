@@ -34,7 +34,10 @@ export default function Navbar() {
               <img className="w-16" src="aesi-logo.png" alt="" />
               <img className="w-20 p-2" src="KITS-EMBLEM.png" alt="" />
               <div className="text-xl text-blue-800 font-semibold">ICRAAE</div>
-              <div className="text-blue-800 cursor-pointer" onClick={toggleMenu}>
+              <div
+                className="text-blue-800 cursor-pointer"
+                onClick={toggleMenu}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -102,6 +105,7 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
+              
               <div>
                 <span
                   onClick={toggleCommitteeMenu}
@@ -140,15 +144,20 @@ export default function Navbar() {
                 )}
               </div>
               <div>
+                <Link onClick={toggleMenu} to="/publication">
+                  Publication
+                </Link>
+              </div>
+              <div>
                 <Link to="/contact-us" onClick={toggleMenu}>
                   Contact Us
                 </Link>
               </div>
               <div>
-                      <Link onClick={toggleMenu} to="/downloads">
-                        Downloads
-                      </Link>
-                    </div>
+                <Link onClick={toggleMenu} to="/downloads">
+                  Downloads
+                </Link>
+              </div>
             </div>
           </Menu>
         </div>
@@ -236,11 +245,16 @@ export default function Navbar() {
                     </div>
                   )}
                 </div>
+                <div>
+                <Link onClick={toggleMenu} to="/publication">
+                  Publication
+                </Link>
+              </div>
                 <Link to="/contact-us">
                   <li>Contact Us</li>
                 </Link>
                 <Link onClick={toggleAboutMenu} to="/downloads">
-                        Downloads
+                  Downloads
                 </Link>
                 <div className="">
                   <a
@@ -249,9 +263,9 @@ export default function Navbar() {
                     href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
                   >
                     <div className="p-2 ">
-                    <button className="bg-[#fc8019] p-2 rounded-md text-sm text-white font-bold">
-                      Register Now
-                    </button>
+                      <button className="bg-[#fc8019] p-2 rounded-lg text-sm text-white font-bold">
+                        Register Now
+                      </button>
                     </div>
                   </a>
                 </div>

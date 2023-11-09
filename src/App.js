@@ -10,6 +10,7 @@ import OrgCommitte from "./components/OrgCommitte";
 import AdvCommittee from "./components/AdvCommittee";
 import Contact from "./components/Contact";
 import Downloads from "./components/Downloads";
+import Publication from "./components/Publication";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/organising-committee" element={<OrgCommitte />} />
           <Route exact path="/advisory-committee" element={<AdvCommittee />} />
           <Route exact path="/conference-topics" element={<Topics />} />
+          <Route exact path="/publication" element={<Publication />} />
           <Route exact path="/contact-us" element={<Contact />} />
           <Route exact path="/downloads" element={<Downloads />} />
         </Routes>
