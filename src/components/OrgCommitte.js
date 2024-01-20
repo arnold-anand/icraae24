@@ -238,10 +238,10 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Dr. Aldin Justin Sundararaj
+                  Dr. D.S. Robinson Smart
                   </h2>
                   <p className="text-gray-500">
-                  Asst.Prof., Aerospace Engineering, KITS
+                  Prof., Aerospace Engineering, KITS
                   </p>
                 </div>
               </div>
@@ -277,6 +277,16 @@ export default function () {
                 </div>
               </div>
             </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-blue-900 title-font font-medium">
+                  Dr. R. Ajith Raj
+                  </h2>
+                  <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -292,10 +302,10 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Dr. D. Robinson Smart
+                  Dr. Prawin Angel Michael
                   </h2>
                   <p className="text-gray-500">
-                  Prof., Aerospace Engineering
+                  Asso.Prof., Aerospace Engineering
                   </p>
                 </div>
               </div>
@@ -304,10 +314,10 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Dr. Prawin Angel Michael
+                  Dr. Aldin Justin Sundararaj
                   </h2>
                   <p className="text-gray-500">
-                  Asso.Prof., Aerospace Engineering
+                  Asst.Prof., Aerospace Engineering
                   </p>
                 </div>
               </div>
@@ -344,26 +354,7 @@ export default function () {
                 </div>
               </div>
             </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
-                <div className="flex-grow">
-                  <h2 className="text-blue-900 title-font font-medium">
-                  Dr. R. Ajith Raj
-                  </h2>
-                  <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
-                </div>
-              </div>
-            </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
-                <div className="flex-grow">
-                  <h2 className="text-blue-900 title-font font-medium">
-                  Mr. Sherbin Sam S
-                  </h2>
-                  <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
-                </div>
-              </div>
-            </div>
+          
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">

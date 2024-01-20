@@ -20,8 +20,11 @@ export default function Publication() {
               (Scopus/ESCI)
             </li>
             <li>
-              5.New Space: The Journal of Space Entrepreneurship and Innovation
+              New Space: The Journal of Space Entrepreneurship and Innovation
               (Scopus/WOS/ESCI)
+            </li>
+            <li>
+              Key Engineering Materials (Scopus)
             </li>
           </ol>
         </div>

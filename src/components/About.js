@@ -7,29 +7,29 @@ export default function About() {
         <h1 className="text-2xl font-bold pb-6 text-blue-900">
           Important Dates
         </h1>
-        <table className="border-spacing-5 border-2 border-slate-500 text-sm text-blue-800">
+        <table className="border-spacing-5 border border-blue-800 text-sm text-blue-800">
           <tr>
-            <td className="p-5 border border-slate-700">
+            <td className="p-5 border border-blue-800">
               Full Paper Submission Deadline
             </td>
-            <td className="p-5 border border-slate-700">15 Jan 2024</td>
+            <td className="p-5 border border-blue-800">15 May 2024</td>
           </tr>
           <tr>
-            <td className="p-5 border border-slate-700">
+            <td className="p-5 border border-blue-800">
               Last Date For Revised Paper Submission
             </td>
-            <td className="p-5 border border-slate-700">10 Feb 2024</td>
+            <td className="p-5 border border-blue-800">15 June 2024</td>
           </tr>
           <tr>
-            <td className="p-5 border border-slate-700">
+            <td className="p-5 border border-blue-800">
               Last Date of Registration & Payment
             </td>
-            <td className="p-5 border border-slate-700">10 Mar 2024</td>
+            <td className="p-5 border border-blue-800">10 July 2024</td>
           </tr>
 
           <tr>
-            <td className="p-5 border border-slate-700">Conference Dates</td>
-            <td className="p-5 border border-slate-700">19 & 20 April 2024</td>
+            <td className="p-5 border border-blue-800">Conference Dates</td>
+            <td className="p-5 border border-blue-800">9 & 10 August 2024</td>
           </tr>
         </table>
       </div>
@@ -87,52 +87,52 @@ export default function About() {
             Registration Fees
           </h1>
           <table className="text-blue-800 my-4 text-sm  md:text-md max-w-md lg:text-lg ">
-            <tr className="border">
+            <tr className="border border-blue-800">
               <th></th>
-              <th colSpan={2} className="text-center border">AeSI Members</th>
+              <th colSpan={2} className="text-center border border-blue-800">AeSI Members</th>
               <th colSpan={2} className="text-center">Others</th>
             </tr>
             <tr className="border font-semibold text-center">
-              <td className="p-2 border">DELEGATE CATEGORY</td>
-              <td className="p-2 border">INR</td>
-              <td className="p-2 border">USD</td>
-              <td className="p-2 border">INR</td>
-              <td className="p-2 border">USD</td>
+              <td className="p-2 border border-blue-800">DELEGATE CATEGORY</td>
+              <td className="p-2 border border-blue-800">INR</td>
+              <td className="p-2 border border-blue-800">USD</td>
+              <td className="p-2 border border-blue-800">INR</td>
+              <td className="p-2 border border-blue-800">USD</td>
             </tr>
             <tr className="border">
-              <td className="p-2 text-xs lg:text-base border">Under Graduates/Post Graduates</td>
-              <td className="p-1 border text-center">3500</td>
-              <td className="p-1 border text-center">75</td>
-              <td className="p-1 border text-center">4000</td>
-              <td className="p-1 border text-center">100</td>
+              <td className="p-2 text-xs lg:text-base border border-blue-800">Under Graduates/Post Graduates</td>
+              <td className="p-1 border border-blue-800 text-center">3500</td>
+              <td className="p-1 border border-blue-800 text-center">75</td>
+              <td className="p-1 border border-blue-800 text-center">4000</td>
+              <td className="p-1 border border-blue-800 text-center">100</td>
+            </tr>
+            <tr className="border border-blue-800">
+              <td className="p-2 text-xs lg:text-base border border-blue-800">Research Scholar</td>
+              <td className="p-1 border border-blue-800 text-center">4500</td>
+              <td className="p-1 border border-blue-800 text-center">100</td>
+              <td className="p-1 border border-blue-800 text-center">5000</td>
+              <td className="p-1 border border-blue-800 text-center">120</td>
+            </tr>
+            <tr className="borde border-blue-800">
+              <td className="p-2 text-xs lg:text-base border border-blue-800">Academia</td>
+              <td className="p-1 border border-blue-800 text-center">6250</td>
+              <td className="p-1 border border-blue-800 text-center">125</td>
+              <td className="p-1 border border-blue-800 text-center">7000</td>
+              <td className="p-1 border border-blue-800 text-center">150</td>
             </tr>
             <tr className="border">
-              <td className="p-2 text-xs lg:text-base border">Research Scholar</td>
-              <td className="p-1 border text-center">4500</td>
-              <td className="p-1 border text-center">100</td>
-              <td className="p-1 border text-center">5000</td>
-              <td className="p-1 border text-center">120</td>
+              <td className="p-2 text-xs lg:text-base border border-blue-800">Industry</td>
+              <td className="p-1 border border-blue-800 text-center">9000</td>
+              <td className="p-1 border border-blue-800 text-center">175</td>
+              <td className="p-1 border border-blue-800 text-center">9500</td>
+              <td className="p-1 border border-blue-800 text-center">200</td>
             </tr>
-            <tr className="border">
-              <td className="p-2 text-xs lg:text-base border">Academia</td>
-              <td className="p-1 border text-center">6250</td>
-              <td className="p-1 border text-center">125</td>
-              <td className="p-1 border text-center">7000</td>
-              <td className="p-1 border text-center">150</td>
-            </tr>
-            <tr className="border">
-              <td className="p-2 text-xs lg:text-base border">Industry</td>
-              <td className="p-1 border text-center">9000</td>
-              <td className="p-1 border text-center">175</td>
-              <td className="p-1 border text-center">9500</td>
-              <td className="p-1 border text-center">200</td>
-            </tr>
-            <tr className="border">
-              <td className="p-2 text-xs lg:text-base border">Listeners (Accompany Delegates)</td>
-              <td className="p-1 border text-center">1500</td>
-              <td className="p-1 border text-center">60</td>
-              <td className="p-1 border text-center">2000</td>
-              <td className="p-1 border text-center">100</td>
+            <tr className="border border-blue-800">
+              <td className="p-2 text-xs lg:text-base border border-blue-800">Listeners (Accompany Delegates)</td>
+              <td className="p-1 border border-blue-800 text-center">1500</td>
+              <td className="p-1 border border-blue-800 text-center">60</td>
+              <td className="p-1 border border-blue-800 text-center">2000</td>
+              <td className="p-1 border border-blue-800 text-center">100</td>
             </tr>
           </table>
         </div>

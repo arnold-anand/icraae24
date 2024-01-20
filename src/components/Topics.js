@@ -8,7 +8,7 @@ export default function Topics() {
         className="bg-[#f3f2ed]"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-0">
-        <div className="p-3 border border-gray-400 m-5 rounded-md h-[450px] w-72">
+        <div className="p-3 border border-gray-400 m-2 rounded-md h-[450px] w-72">
             <div className="text-md font-bold text-center">
               Propulsion & Heat transfer Technology
             </div>
@@ -115,7 +115,7 @@ export default function Topics() {
             Avionics, Communication Navigation Guidance and Control
             </div>
             <div className="m-5">
-              <ul className="list-decimal space-y-5">
+              <ul className="list-decimal space-y-3">
                 <li>Aviation 4.0</li>
                 <li>Human System Unteraction</li>
                 <li>Sensors</li>

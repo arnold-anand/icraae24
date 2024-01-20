@@ -15,12 +15,12 @@ export default function Contact() {
                 <div className="flex-grow">
                     
                   <h2 className="text-blue-900 title-font font-medium">
-                  Dr. Aldin Justin Sundararaj
+                  Dr. D.S. Robinson Smart
                   </h2>
-                  <p className="text-gray-500">Assistant Professor</p>
+                  <p className="text-gray-500">Professor</p>
                   <p className="text-gray-500">Organising Secretary ICRAAE-24</p>
-                  <p className="text-gray-500">Phone: 9047653317</p>
-                  <p className="text-gray-500 text-sm lg:text-md">Email:icraae@karunya.edu</p>
+                  <p className="text-gray-500">Phone: 9787334463</p>
+                  <p className="text-gray-500 text-sm lg:text-md">Email: smart@karunya.edu</p>
                   
                 </div>
               </div>
