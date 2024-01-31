@@ -189,15 +189,15 @@ export default function Navbar() {
         </div>
       </div>
       <div className="hidden lg:block font-poppins shadow-sm">
-        <header className="sticky top-0 text-blue-800 w-screen px-10 bg-[#f3f2ed] z-10">
+        <header className="sticky top-0 text-blue-800 w-screen px-7 bg-[#f3f2ed] z-10">
           <div className="flex justify-between items-center">
             <div className="flex justify-center items-center">
               <img className="w-20 p-2" src="aesi-logo.png" alt="" />
               <img className="w-24 p-3" src="KITS-EMBLEM.png" alt="" />
               <div className="text-3xl px-3 font-semibold">ICRAAE</div>
             </div>
-            <div>
-              <ul className="flex space-x-5 items-center">
+            <div className="text-sm">
+              <ul className="flex space-x-3 items-center">
                 <Link to="/">
                   <li>Home</li>
                 </Link>
