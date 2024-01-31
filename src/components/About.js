@@ -8,6 +8,12 @@ export default function About() {
           Important Dates
         </h1>
         <table className="border-spacing-5 border border-blue-800 text-sm text-blue-800">
+        <tr>
+            <td className="p-5 border border-blue-800">
+              Abstract Submission Deadline
+            </td>
+            <td className="p-5 border border-blue-800">15 April 2024</td>
+          </tr>
           <tr>
             <td className="p-5 border border-blue-800">
               Full Paper Submission Deadline

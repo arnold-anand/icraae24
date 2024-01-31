@@ -158,6 +158,32 @@ export default function Navbar() {
                   Downloads
                 </Link>
               </div>
+              <div className="">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://forms.gle/sWRgJD2i4GbxwQ3p9"
+                  >
+                    <div className="">
+                      <button className="bg-blue-700 w-full p-2 rounded-md text-sm text-white font-bold">
+                        Submit Paper
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div className="">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+                  >
+                    <div className="">
+                      <button className="bg-[#fc8019] w-full p-2 rounded-md text-sm text-white font-bold">
+                        Register Now
+                      </button>
+                    </div>
+                  </a>
+                </div>
             </div>
           </Menu>
         </div>
@@ -260,10 +286,23 @@ export default function Navbar() {
                   <a
                     rel="noreferrer"
                     target="_blank"
+                    href="https://forms.gle/sWRgJD2i4GbxwQ3p9"
+                  >
+                    <div className="p-2 ">
+                      <button className="bg-blue-700 p-2 rounded-md text-sm text-white font-bold">
+                        Submit Paper
+                      </button>
+                    </div>
+                  </a>
+                </div>
+                <div className="">
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
                     href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
                   >
                     <div className="p-2 ">
-                      <button className="bg-[#fc8019] p-2 rounded-lg text-sm text-white font-bold">
+                      <button className="bg-[#fc8019] p-2 rounded-md text-sm text-white font-bold">
                         Register Now
                       </button>
                     </div>

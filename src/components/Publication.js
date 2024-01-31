@@ -10,11 +10,6 @@ export default function Publication() {
             <li>
               Journal of Aeronautics Astronautics and Aviation (Scopus/ESCI)
             </li>
-            <li>Journal of Integrated Science and Technology (Scopus)</li>
-            <li>
-              Strojniski vestnik - Journal of Mechanical Engineering
-              (Scopus/WOS)
-            </li>
             <li>
               High Temperature Corrosion of Materials/Oxidation of metals
               (Scopus/ESCI)
@@ -24,8 +19,14 @@ export default function Publication() {
               (Scopus/WOS/ESCI)
             </li>
             <li>
+              Strojniski vestnik - Journal of Mechanical Engineering
+              (Scopus/WOS)
+            </li>
+            <li>Journal of Integrated Science and Technology (Scopus)</li>
+            <li>
               Key Engineering Materials (Scopus)
             </li>
+            <li>Journal on Applied and Chemial Physics (Non Scopus)</li>
           </ol>
         </div>
 
