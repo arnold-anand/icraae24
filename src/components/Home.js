@@ -283,7 +283,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="p-6 text-[#222] bg-[#f3f2ed] font-poppins">
+      <div className="-mt-10 p-6 text-[#222] bg-[#f3f2ed] font-poppins">
       <div className="flex justify-center items-center flex-col">
         <h1 className="text-2xl font-bold pb-6 text-blue-900">
           Important Dates

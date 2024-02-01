@@ -251,7 +251,7 @@ export default function Navbar() {
                 <div className="timer py-5 font-poppins text-blue-900">
                   <div className="text-6xl flex-col items-center space-y-5">
                     <div className="flex items-center justify-center">
-                      <div className="flex flex-col items-center justify-center space-y-2">
+                      <div className="flex flex-col items-center justify-center">
                         <div className="hrs text-2xl md:text-4xl lg:text-[20px]">
                           {timeLeft.days.toString().padStart(2, "0")}
                         </div>
@@ -262,7 +262,7 @@ export default function Navbar() {
                       <div className="mb-11 md:mb-7 p-2 text-2xl md:text-xs">
                         :
                       </div>
-                      <div className="flex flex-col items-center justify-center space-y-2">
+                      <div className="flex flex-col items-center justify-center">
                         <div className="mins text-2xl md:text-4xl lg:text-[20px]">
                           {timeLeft.hours.toString().padStart(2, "0")}
                         </div>
@@ -274,7 +274,7 @@ export default function Navbar() {
                       <div className="mb-11 md:mb-7 p-2 text-2xl md:text-sm">
                         :
                       </div>
-                      <div className="flex flex-col items-center justify-center space-y-2">
+                      <div className="flex flex-col items-center justify-center">
                         <div className="seconds text-2xl md:text-4xl lg:text-[20px]">
                           {timeLeft.minutes.toString().padStart(2, "0")}
                         </div>
@@ -286,7 +286,7 @@ export default function Navbar() {
                       <div className="mb-11 md:mb-7 p-2 text-2xl md:text-sm">
                         :
                       </div>
-                      <div className="flex flex-col items-center justify-center space-y-2">
+                      <div className="flex flex-col items-center justify-center">
                         <div className="seconds text-2xl md:text-4xl lg:text-[20px]">
                           {timeLeft.seconds.toString().padStart(2, "0")}
                         </div>
