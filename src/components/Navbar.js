@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { slide as Menu } from "react-burger-menu";
 import { Link } from "react-router-dom";
 
@@ -6,6 +6,53 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [aboutMenuOpen, setAboutMenuOpen] = useState(false);
   const [committeeMenuOpen, setCommitteeMenuOpen] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  // Calculate the time remaining until March 29, 2023, 9:00 PM
+  function calculateTimeLeft() {
+    const targetDate = new Date("2024-08-09T10:00:00Z");
+    targetDate.setHours(targetDate.getHours() - 5); // Add 5 hours for IST
+    targetDate.setMinutes(targetDate.getMinutes() - 30); // Add 30 minutes for IST
+
+    const currentDate = new Date();
+    const timeDifference = targetDate - currentDate;
+
+    if (timeDifference <= 0) {
+      // The countdown has ended
+      return {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0,
+      };
+    }
+
+    const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(
+      (timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+    );
+    const minutes = Math.floor(
+      (timeDifference % (1000 * 60 * 60)) / (1000 * 60)
+    );
+    const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+    return {
+      days,
+      hours,
+      minutes,
+      seconds,
+    };
+  }
+
+  // Update the countdown timer every second
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    // Clear the timer when the component unmounts
+    return () => clearInterval(timer);
+  }, []);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -68,7 +115,7 @@ export default function Navbar() {
                   Home
                 </Link>
               </div>
-              <div>
+              {/* <div>
                 <span
                   onClick={toggleAboutMenu}
                   className="cursor-pointer flex items-center space-x-3"
@@ -104,8 +151,13 @@ export default function Navbar() {
                     </div>
                   </div>
                 )}
+              </div> */}
+              <div>
+                <Link to="/conference-topics" onClick={toggleMenu}>
+                  Topics
+                </Link>
               </div>
-              
+
               <div>
                 <span
                   onClick={toggleCommitteeMenu}
@@ -159,31 +211,31 @@ export default function Navbar() {
                 </Link>
               </div>
               <div className="">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://forms.gle/sWRgJD2i4GbxwQ3p9"
-                  >
-                    <div className="">
-                      <button className="bg-blue-700 w-full p-2 rounded-md text-sm text-white font-bold">
-                        Submit Paper
-                      </button>
-                    </div>
-                  </a>
-                </div>
-                <div className="">
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
-                  >
-                    <div className="">
-                      <button className="bg-[#fc8019] w-full p-2 rounded-md text-sm text-white font-bold">
-                        Register Now
-                      </button>
-                    </div>
-                  </a>
-                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://forms.gle/sWRgJD2i4GbxwQ3p9"
+                >
+                  <div className="">
+                    <button className="bg-blue-700 w-full p-2 rounded-md text-sm text-white font-bold">
+                      Submit Paper
+                    </button>
+                  </div>
+                </a>
+              </div>
+              <div className="">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+                >
+                  <div className="">
+                    <button className="bg-[#fc8019] w-full p-2 rounded-md text-sm text-white font-bold">
+                      Register Now
+                    </button>
+                  </div>
+                </a>
+              </div>
             </div>
           </Menu>
         </div>
@@ -195,13 +247,76 @@ export default function Navbar() {
               <img className="w-20 p-2" src="aesi-logo.png" alt="" />
               <img className="w-24 p-3" src="KITS-EMBLEM.png" alt="" />
               <div className="text-3xl px-3 font-semibold">ICRAAE</div>
+              <div className="overscroll-contain flex items-center justify-center bg-[#f3f2ed] px-5">
+                <div className="timer py-5 font-poppins text-blue-900">
+                  <div className="text-6xl flex-col items-center space-y-5">
+                    <div className="flex items-center justify-center">
+                      <div className="flex flex-col items-center justify-center space-y-2">
+                        <div className="hrs text-2xl md:text-4xl lg:text-[20px]">
+                          {timeLeft.days.toString().padStart(2, "0")}
+                        </div>
+                        <div className="text-xs md:text-base lg:text-sm">
+                          Days
+                        </div>
+                      </div>
+                      <div className="mb-11 md:mb-7 p-2 text-2xl md:text-xs">
+                        :
+                      </div>
+                      <div className="flex flex-col items-center justify-center space-y-2">
+                        <div className="mins text-2xl md:text-4xl lg:text-[20px]">
+                          {timeLeft.hours.toString().padStart(2, "0")}
+                        </div>
+                        <div className="text-xs md:text-base lg:text-sm">
+                          Hours
+                        </div>
+                      </div>
+
+                      <div className="mb-11 md:mb-7 p-2 text-2xl md:text-sm">
+                        :
+                      </div>
+                      <div className="flex flex-col items-center justify-center space-y-2">
+                        <div className="seconds text-2xl md:text-4xl lg:text-[20px]">
+                          {timeLeft.minutes.toString().padStart(2, "0")}
+                        </div>
+                        <div className="text-xs md:text-base lg:text-sm">
+                          Minutes
+                        </div>
+                      </div>
+
+                      <div className="mb-11 md:mb-7 p-2 text-2xl md:text-sm">
+                        :
+                      </div>
+                      <div className="flex flex-col items-center justify-center space-y-2">
+                        <div className="seconds text-2xl md:text-4xl lg:text-[20px]">
+                          {timeLeft.seconds.toString().padStart(2, "0")}
+                        </div>
+                        <div className="text-xs md:text-base lg:text-sm">
+                          Seconds
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* <div className="">
+              <a
+                rel="noreferrer"
+                target="_blank"
+                href="https://eduserve.karunya.edu/Online/ExternalEvents.aspx"
+              >
+                <button className=" bg-[#fc8019] w-full text-xl p-2 border-2 border-solid text-white rounded-lg font-bold">
+                  Register Now
+                </button>
+              </a>
+            </div> */}
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="text-sm">
               <ul className="flex space-x-3 items-center">
                 <Link to="/">
                   <li>Home</li>
                 </Link>
-                <div className="relative">
+                {/* <div className="relative">
                   <span
                     onClick={toggleAboutMenu}
                     className="cursor-pointer flex items-center justify-center space-x-3"
@@ -232,7 +347,10 @@ export default function Navbar() {
                       </Link>
                     </div>
                   )}
-                </div>
+                </div> */}
+                <Link to="/conference-topics" onClick={toggleMenu}>
+                  Topics
+                </Link>
                 <div className="relative">
                   <span
                     onClick={toggleCommitteeMenu}
@@ -272,10 +390,10 @@ export default function Navbar() {
                   )}
                 </div>
                 <div>
-                <Link onClick={toggleMenu} to="/publication">
-                  Publication
-                </Link>
-              </div>
+                  <Link onClick={toggleMenu} to="/publication">
+                    Publication
+                  </Link>
+                </div>
                 <Link to="/contact-us">
                   <li>Contact Us</li>
                 </Link>
