@@ -78,9 +78,9 @@ export default function Navbar() {
         <div className="left-0 w-full bg-[#f3f2ed] text-blue-950">
           <div className="p-5">
             <div className="flex justify-between items-center">
-              <img className="w-16" src="aesi-logo.png" alt="" />
               <img className="w-20 p-2" src="KITS-EMBLEM.png" alt="" />
               <div className="text-xl text-blue-800 font-semibold">ICRAAE</div>
+              <img className="w-16" src="aesi-logo.png" alt="" />
               <div
                 className="text-blue-800 cursor-pointer"
                 onClick={toggleMenu}
@@ -244,9 +244,9 @@ export default function Navbar() {
         <header className="sticky top-0 text-blue-800 w-screen px-7 bg-[#f3f2ed] z-10">
           <div className="flex justify-between items-center">
             <div className="flex justify-center items-center">
-              <img className="w-20 p-2" src="aesi-logo.png" alt="" />
               <img className="w-24 p-3" src="KITS-EMBLEM.png" alt="" />
               <div className="text-3xl px-3 font-semibold">ICRAAE</div>
+              <img className="w-20 p-2" src="aesi-logo.png" alt="" />
               <div className="overscroll-contain flex items-center justify-center bg-[#f3f2ed] px-5">
                 <div className="timer py-5 font-poppins text-blue-900">
                   <div className="text-6xl flex-col items-center space-y-5">
