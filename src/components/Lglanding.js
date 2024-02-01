@@ -10,7 +10,7 @@ export default function Lglanding() {
       <div className="flex items-center justify-center ">
         </div>
         <div className="p-3">
-        <img className="rounded-md" src="icraae24-banner-compressed.png" alt="" />
+        <img className="rounded-md" src="icraae24-banner-compressed.jpg" alt="" />
         </div>
     </div>
   );
