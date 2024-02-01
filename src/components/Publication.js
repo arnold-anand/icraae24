@@ -5,7 +5,7 @@ export default function Publication() {
     <div className="bg-[#f3f2ed] text-blue-800 font-poppins p-6 lg:p-10">
       <div>
         <div>
-          <h1 className="text-2xl font-semibold">Publishing Partners</h1>
+          <h1 className="text-2xl font-semibold">Tentative Publishing Partners</h1>
           <ol className="list-decimal space-y-5 my-5 ml-5">
             <li>
               Journal of Aeronautics Astronautics and Aviation (Scopus/ESCI)
