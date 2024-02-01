@@ -369,7 +369,7 @@ export default function Home() {
           submitting your paper.
         </p>
 
-        <div className="flex flex-col">
+        <div className="flex flex-col w-full justify-center">
           <h1 className="text-2xl font-bold text-blue-900">
             Registration Fees
           </h1>

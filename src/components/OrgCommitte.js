@@ -44,16 +44,7 @@ export default function () {
             </h1>
           </div>
           <div className="flex flex-wrap -m-2">
-          <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
-                <div className="flex-grow">
-                  <h2 className="text-blue-900 title-font font-medium">
-                  Prof. Dr. C. Senthil Kumar
-                  </h2>
-                  <p className="text-gray-500">Chairman, AeSI-Chennai Branch</p>
-                </div>
-              </div>
-            </div>
+         
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
@@ -110,6 +101,16 @@ export default function () {
                 </div>
               </div>
             </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-blue-900 title-font font-medium">
+                  Prof. Dr. C. Senthil Kumar
+                  </h2>
+                  <p className="text-gray-500">Chairman, AeSI-Chennai Branch</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -121,18 +122,7 @@ export default function () {
             </h1>
           </div>
           <div className="flex flex-wrap -m-2">
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
-              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
-                <div className="flex-grow">
-                  <h2 className="text-blue-900 title-font font-medium">
-                  Dr. P.S Prem Kumar
-                  </h2>
-                  <p className="text-gray-500">
-                  Honorary Secretary, AeSI-Chennai Branch
-                  </p>
-                </div>
-              </div>
-            </div>
+            
             <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
@@ -199,6 +189,18 @@ export default function () {
                 </div>
               </div>
             </div>
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
+                <div className="flex-grow">
+                  <h2 className="text-blue-900 title-font font-medium">
+                  Dr. P.S Prem Kumar
+                  </h2>
+                  <p className="text-gray-500">
+                  Honorary Secretary, AeSI-Chennai Branch
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -215,7 +217,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Dr. Jims John Wessley
+                  Dr. G. Jims John Wessley
                   </h2>
                   <p className="text-gray-500">
                   Asso. Prof. & Head, Aerospace Engineering, KITS
@@ -326,7 +328,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Mrs. Gayathri G.
+                  Mrs. G. Gayathri
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
                 </div>
@@ -348,7 +350,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Mr. Prawin L.
+                  Mr. L. Prawin
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
                 </div>
@@ -359,7 +361,7 @@ export default function () {
               <div className="h-full flex items-center border-gray-700 border p-4 rounded-lg">
                 <div className="flex-grow">
                   <h2 className="text-blue-900 title-font font-medium">
-                  Ms. Sreemathi S
+                  Ms. S. Sreemathi
                   </h2>
                   <p className="text-gray-500">Asst.Prof., Aerospace Engineering</p>
                 </div>
